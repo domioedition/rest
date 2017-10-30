@@ -72,3 +72,24 @@ $app->delete('/projects/{id}', function ($request, $response) {
        return $response->withJson(array('error' => $ex->getMessage()),422);
    }
 });
+
+$app->get('/projects/{id}', function ($request, $response) {
+  try{
+      $id = $request->getAttribute('id');
+      $con = $this->db;
+      $sql = "SELECT * FROM projects WHERE id = :id";
+      $pre  = $con->prepare($sql, array(PDO::ATTR_CURSOR => PDO::CURSOR_FWDONLY));
+      $values = array(
+      ':id' => $id);
+      $pre->execute($values);
+      $result = $pre->fetch(PDO::FETCH_ASSOC);
+      if($result){
+         return $response->withJson(array('status' => 'true', 'result'=>$result),200);
+      }else{
+         return $response->withJson(array('status' => 'false', 'result' => 'Project Not Found'),422);
+      }
+   }
+   catch(\Exception $ex){
+       return $response->withJson(array('error' => $ex->getMessage()),422);
+   }
+});

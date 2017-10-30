@@ -15,10 +15,18 @@ class ControllerTask extends Controller
         return $this->view->render($response, 'task.twig');
     }
 
-    public function findById($request, $response)
+    public function findById($request, $response, $args)
     {
-        echo "Task controller";
-        return $response;
+        $id = (int)$args['id'];
+
+        //TODO get info pro model and send it on view
+        $m = new \App\Models\ModelTask($id);
+        var_dump($m);
+        // var_dump($body);
+
+        $body = $response->getBody();
+        // var_dump($body);
+        return $this->view->render($response, 'task.twig');
     }
 
 }
