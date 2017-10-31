@@ -34,8 +34,10 @@ $app->get('/projects', function ($request, $response) {
 $app->post('/projects', function ($request, $response) {
   try{
       $data = $request->getParsedBody();
+      // var_dump($data);
+      // die();
       $project_data = array();
-      $project_data['project_user_id_creator'] = filter_var($data['project_user_id_creator'], FILTER_SANITIZE_STRING);
+      $project_data['project_user_id_creator'] = filter_var($data['project_user_id_creator'], FILTER_SANITIZE_NUMBER_INT);
       $project_data['project_name'] = filter_var($data['project_name'], FILTER_SANITIZE_STRING);
       $project_data['project_description'] = filter_var($data['project_description'], FILTER_SANITIZE_STRING);
       $sql = "INSERT INTO projects (project_user_id_creator, project_name, project_description) VALUES ('".$project_data['project_user_id_creator']."','". $project_data['project_name']."','". $project_data['project_description']."')";
@@ -43,7 +45,7 @@ $app->post('/projects', function ($request, $response) {
       $result = null;
       $result = $con->query($sql);
       if($result){
-        return $response->withJson(array('status' => 'true','result'=>$project_data),200);
+        return $response->withJson(array('status' => 'true','result'=>$project_data),201);
       }else{
         return $response->withJson(array('status' => 'Project not added','result'=>$project_data),422);
       }
@@ -52,6 +54,29 @@ $app->post('/projects', function ($request, $response) {
        return $response->withJson(array('error' => $ex->getMessage()),422);
    }
 });
+
+$app->put('/projects/{id}', function ($request, $response) {
+  try{
+      $id = $request->getAttribute('id');
+      $data = $request->getParsedBody();
+      $project_data = array();
+      $project_data['project_name'] = filter_var($data['project_name'], FILTER_SANITIZE_STRING);
+      $project_data['project_description'] = filter_var($data['project_description'], FILTER_SANITIZE_STRING);
+      $sql = "UPDATE projects SET project_name='".$project_data['project_name']."', project_description='".$project_data['project_description']."' WHERE id='$id'";
+      $con = $this->db;
+      $result = null;
+      $result = $con->query($sql);
+      if($result){
+        return $response->withJson(array('status' => 'true','result'=>$project_data),201);
+      }else{
+        return $response->withJson(array('status' => 'Project not added','result'=>$project_data),422);
+      }
+   }
+   catch(\Exception $ex){
+       return $response->withJson(array('error' => $ex->getMessage()),422);
+   }
+});
+
 
 $app->delete('/projects/{id}', function ($request, $response) {
   try{
@@ -92,4 +117,10 @@ $app->get('/projects/{id}', function ($request, $response) {
    catch(\Exception $ex){
        return $response->withJson(array('error' => $ex->getMessage()),422);
    }
+});
+
+$app->options('/projects', function ($request, $response) {
+  echo "Options\n";
+  echo "test\n";
+  return;
 });
