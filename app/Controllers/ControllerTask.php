@@ -8,25 +8,35 @@ use Slim\App;
 
 class ControllerTask extends Controller
 {
-
+    
+    public function __construct($container) {
+        parent::__construct($container);
+//        $x = $container->get('settings')['db'];
+//        var_dump($x);
+    }
 
     public function index($request, $response)
     {
-        return $this->view->render($response, 'task.twig');
+//        var_dump($this->db);
+        $tasks = new \App\Models\ModelTask($this->db);
+        $result = $tasks->findAll();
+        if($result){
+            return $response->withJson(array('status' => 'true','result'=>$result),200);
+        }else{
+            return $response->withJson(array('status' => 'Tasks not found'),422);
+        }
     }
 
     public function findById($request, $response, $args)
     {
         $id = (int)$args['id'];
-
-        //TODO get info pro model and send it on view
-        $m = new \App\Models\ModelTask($id);
-        var_dump($m);
-        // var_dump($body);
-
-        $body = $response->getBody();
-        // var_dump($body);
-        return $this->view->render($response, 'task.twig');
+        $task = new \App\Models\ModelTask($this->db);
+        $result = $task->findById($id);
+        if($result){
+            return $response->withJson(array('status' => 'true','result'=>$result),200);
+        }else{
+            return $response->withJson(array('status' => 'Task not found'),422);
+        }
     }
 
 }
