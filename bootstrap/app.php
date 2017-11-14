@@ -15,8 +15,8 @@ $config['addContentLengthHeader'] = false;
 
 $config['db']['host']   = "localhost";
 $config['db']['user']   = "root";
-$config['db']['pass']   = "";
-$config['db']['dbname'] = "controlmyprojects";
+$config['db']['pass']   = "piramida123";
+$config['db']['dbname'] = "cmp";
 
 $app = new \Slim\App(["settings" => $config]);
 
