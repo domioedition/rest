@@ -2,3 +2,4 @@ vendor/*
 .idea/
 /nbproject/private/
 nbproject/*
+logs/*
