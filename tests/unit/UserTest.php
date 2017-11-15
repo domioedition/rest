@@ -4,8 +4,9 @@ use PHPUnit\Framework\TestCase;
 
 class UserTest extends TestCase
 {
-    public function testAssertsTrue(){
-      $this->assertTrue(true);
+    public function testAssertsTrue()
+    {
+        $this->assertTrue(true);
     }
     // public function testFirstName()
     // {
@@ -49,4 +50,3 @@ class UserTest extends TestCase
     //     $this->assertEquals($emailVariables['email'], 'billy@somemail.com');
     // }
 }
-?>

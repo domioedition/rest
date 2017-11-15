@@ -3,13 +3,12 @@
 
 namespace App\Controllers;
 
-
 use Slim\App;
 
 class ControllerTask extends Controller
 {
-    
-    public function __construct($container) {
+    public function __construct($container)
+    {
         parent::__construct($container);
 //        $x = $container->get('settings')['db'];
 //        var_dump($x);
@@ -20,10 +19,10 @@ class ControllerTask extends Controller
 //        var_dump($this->db);
         $tasks = new \App\Models\ModelTask($this->db);
         $result = $tasks->findAll();
-        if($result){
-            return $response->withJson(array('status' => 'true','result'=>$result),200);
-        }else{
-            return $response->withJson(array('status' => 'Tasks not found'),422);
+        if ($result) {
+            return $response->withJson(array('status' => 'true','result'=>$result), 200);
+        } else {
+            return $response->withJson(array('status' => 'Tasks not found'), 422);
         }
     }
 
@@ -32,11 +31,45 @@ class ControllerTask extends Controller
         $id = (int)$args['id'];
         $task = new \App\Models\ModelTask($this->db);
         $result = $task->findById($id);
-        if($result){
-            return $response->withJson(array('status' => 'true','result'=>$result),200);
-        }else{
-            return $response->withJson(array('status' => 'Task not found'),422);
+        if ($result) {
+            return $response->withJson(array('status' => 'true','result'=>$result), 200);
+        } else {
+            return $response->withJson(array('status' => 'Task not found'), 422);
         }
     }
-
+    
+    public function addNewTask($request, $response, $args)
+    {
+        $task = new \App\Models\ModelTask($this->db);
+        $result = $task->addNewTask($request->getParsedBody());
+        if ($result) {
+            return $response->withJson(array('status' => 'true','result'=>$result), 201);
+        } else {
+            return $response->withJson(array('status' => 'Task not found'), 422);
+        }
+    }
+    
+    public function updateById($request, $response, $args)
+    {
+        $id = (int)$args['id'];
+        $task = new \App\Models\ModelTask($this->db);
+        $result = $task->updateById($id, $request->getParsedBody());
+        if ($result) {
+            return $response->withJson(array('status' => 'true','result'=>$result), 201);
+        } else {
+            return $response->withJson(array('status' => 'Task not found'), 422);
+        }
+    }
+    
+    public function deleteById($request, $response, $args)
+    {
+        $id = (int)$args['id'];
+        $task = new \App\Models\ModelTask($this->db);
+        $result = $task->deleteById($id);
+        if ($result) {
+            return $response->withJson(array('status' => 'true','result'=>$result), 201);
+        } else {
+            return $response->withJson(array('status' => 'Task not found'), 422);
+        }
+    }
 }

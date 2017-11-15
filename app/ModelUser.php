@@ -2,25 +2,21 @@
 
 namespace App;
 
-
 use Slim\App;
 
 class ModelUser
 {
+    public $name;
+    public $id;
 
-public $name = 'Bob';
-public $id;
+    public function __construct($id, $name)
+    {
+        $this->id = $id;
+        $this->name = $name;
+    }
 
-public function __construct($id){
-    $this->id = $id;
-}
-
-public function getName()
-{
-  return $this->name;
-}
-
-
-
-
+    public function getName()
+    {
+        return "My name is ".$this->name;
+    }
 }

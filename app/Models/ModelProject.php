@@ -5,11 +5,7 @@
  */
 class ModelProject extends Model
 {
-
-  function __construct()
-  {
-    
-  }
+    public function __construct()
+    {
+    }
 }
-
-?>
