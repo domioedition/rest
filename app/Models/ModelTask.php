@@ -45,7 +45,7 @@ class ModelTask extends Model
                 $result[] = $row;
             }
             if ($result) {
-                return $result;
+                return $result[0];
             } else {
                 return null;
             }

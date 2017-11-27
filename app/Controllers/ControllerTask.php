@@ -20,7 +20,10 @@ class ControllerTask extends Controller
         $tasks = new \App\Models\ModelTask($this->db);
         $result = $tasks->findAll();
         if ($result) {
-            return $response->withJson(array('status' => 'true','result'=>$result), 200);
+            return $response->withJson($result, 200)
+                ->withHeader('Access-Control-Allow-Origin', '*')
+                ->withHeader('Access-Control-Allow-Headers', 'X-Requested-With, Content-Type, Accept, Origin, Authorization')
+                ->withHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
         } else {
             return $response->withJson(array('status' => 'Tasks not found'), 422);
         }
@@ -32,9 +35,15 @@ class ControllerTask extends Controller
         $task = new \App\Models\ModelTask($this->db);
         $result = $task->findById($id);
         if ($result) {
-            return $response->withJson(array('status' => 'true','result'=>$result), 200);
+            return $response->withJson($result, 200)
+                ->withHeader('Access-Control-Allow-Origin', '*')
+                ->withHeader('Access-Control-Allow-Headers', 'X-Requested-With, Content-Type, Accept, Origin, Authorization')
+                ->withHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
         } else {
-            return $response->withJson(array('status' => 'Task not found'), 422);
+            return $response->withJson(null, 404)
+                ->withHeader('Access-Control-Allow-Origin', '*')
+                ->withHeader('Access-Control-Allow-Headers', 'X-Requested-With, Content-Type, Accept, Origin, Authorization')
+                ->withHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
         }
     }
     

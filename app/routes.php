@@ -19,7 +19,11 @@ $app->get('/projects', function ($request, $response) {
             $result[] = $row;
         }
         if ($result) {
-            return $response->withJson(array('status' => 'true','result'=>$result), 200);
+            return $response->withJson($result, 200)
+                ->withHeader('Access-Control-Allow-Origin', '*')
+                ->withHeader('Access-Control-Allow-Headers', 'X-Requested-With, Content-Type, Accept, Origin, Authorization')
+                ->withHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
+            
         } else {
             return $response->withJson(array('status' => 'Users Not Found'), 422);
         }
@@ -27,7 +31,6 @@ $app->get('/projects', function ($request, $response) {
         return $response->withJson(array('error' => $ex->getMessage()), 422);
     }
 });
-
 
 $app->post('/projects', function ($request, $response) {
     try {
@@ -43,7 +46,9 @@ $app->post('/projects', function ($request, $response) {
         $result = null;
         $result = $con->query($sql);
         if ($result) {
-            return $response->withJson(array('status' => 'true','result'=>$project_data), 201);
+            return $response->withJson(array('status' => 'true','result'=>$project_data), 201)->withHeader('Access-Control-Allow-Origin', '*')
+                ->withHeader('Access-Control-Allow-Headers', 'X-Requested-With, Content-Type, Accept, Origin, Authorization')
+                ->withHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
         } else {
             return $response->withJson(array('status' => 'Project not added','result'=>$project_data), 422);
         }
@@ -104,7 +109,10 @@ $app->get('/projects/{id}', function ($request, $response) {
         $pre->execute($values);
         $result = $pre->fetch(PDO::FETCH_ASSOC);
         if ($result) {
-            return $response->withJson(array('status' => 'true', 'result'=>$result), 200);
+            return $response->withJson($result, 200)
+                ->withHeader('Access-Control-Allow-Origin', '*')
+                ->withHeader('Access-Control-Allow-Headers', 'X-Requested-With, Content-Type, Accept, Origin, Authorization')
+                ->withHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
         } else {
             return $response->withJson(array('status' => 'false', 'result' => 'Project Not Found'), 422);
         }
@@ -114,7 +122,9 @@ $app->get('/projects/{id}', function ($request, $response) {
 });
 
 $app->options('/projects', function ($request, $response) {
-    echo "Options\n";
-    echo "test\n";
-    return;
+
+return $response->withHeader('Access-Control-Allow-Origin', '*')
+        ->withHeader('Access-Control-Allow-Headers', 'X-Requested-With, Content-Type, Accept, Origin, Authorization')
+        ->withHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');    
+    
 });
