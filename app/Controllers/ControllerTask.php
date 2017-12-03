@@ -10,30 +10,32 @@ class ControllerTask extends Controller
     public function __construct($container)
     {
         parent::__construct($container);
-//        $x = $container->get('settings')['db'];
-//        var_dump($x);
     }
 
-    public function index($request, $response)
+    public function index($request, $response, $args)
     {
-//        var_dump($this->db);
+        $pid = (int)$args['pid'];
         $tasks = new \App\Models\ModelTask($this->db);
-        $result = $tasks->findAll();
+        $result = $tasks->findAll($pid);
         if ($result) {
             return $response->withJson($result, 200)
                 ->withHeader('Access-Control-Allow-Origin', '*')
                 ->withHeader('Access-Control-Allow-Headers', 'X-Requested-With, Content-Type, Accept, Origin, Authorization')
                 ->withHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
         } else {
-            return $response->withJson(array('status' => 'Tasks not found'), 422);
+            return $response->withJson($result, 404)
+                ->withHeader('Access-Control-Allow-Origin', '*')
+                ->withHeader('Access-Control-Allow-Headers', 'X-Requested-With, Content-Type, Accept, Origin, Authorization')
+                ->withHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
         }
     }
 
     public function findById($request, $response, $args)
     {
+        $pid = (int)$args['pid'];
         $id = (int)$args['id'];
         $task = new \App\Models\ModelTask($this->db);
-        $result = $task->findById($id);
+        $result = $task->findById($pid, $id);
         if ($result) {
             return $response->withJson($result, 200)
                 ->withHeader('Access-Control-Allow-Origin', '*')
@@ -52,7 +54,9 @@ class ControllerTask extends Controller
         $task = new \App\Models\ModelTask($this->db);
         $result = $task->addNewTask($request->getParsedBody());
         if ($result) {
-            return $response->withJson(array('status' => 'true','result'=>$result), 201);
+            return $response->withJson($result, 201)->withHeader('Access-Control-Allow-Origin', '*')
+                ->withHeader('Access-Control-Allow-Headers', 'X-Requested-With, Content-Type, Accept, Origin, Authorization')
+                ->withHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
         } else {
             return $response->withJson(array('status' => 'Task not found'), 422);
         }
@@ -60,11 +64,13 @@ class ControllerTask extends Controller
     
     public function updateById($request, $response, $args)
     {
-        $id = (int)$args['id'];
+        $pid = (int)$args['pid'];
+        $id = (int)$args['id'];        
         $task = new \App\Models\ModelTask($this->db);
-        $result = $task->updateById($id, $request->getParsedBody());
+        $result = $task->updateById($pid, $id, $request->getParsedBody());
         if ($result) {
-            return $response->withJson(array('status' => 'true','result'=>$result), 201);
+            return $response->withJson(array('s'=>'true'), 201)->withHeader('Access-Control-Allow-Origin', '*')
+                            ->withHeader('Content-Type', 'application/x-www-form-urlencoded');
         } else {
             return $response->withJson(array('status' => 'Task not found'), 422);
         }
@@ -72,13 +78,32 @@ class ControllerTask extends Controller
     
     public function deleteById($request, $response, $args)
     {
+        $pid = (int)$args['pid'];
         $id = (int)$args['id'];
         $task = new \App\Models\ModelTask($this->db);
-        $result = $task->deleteById($id);
+        $result = $task->deleteById($pid, $id);
         if ($result) {
-            return $response->withJson(array('status' => 'true','result'=>$result), 201);
+            return $response->withJson(array('status' => 'true'), 200)->withHeader('Access-Control-Allow-Origin', '*')
+                ->withHeader('Access-Control-Allow-Headers', 'X-Requested-With, Content-Type, Accept, Origin, Authorization')
+                ->withHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
         } else {
             return $response->withJson(array('status' => 'Task not found'), 422);
         }
     }
+    
+    public function changeStatus($request, $response, $args)
+    {
+        $pid = (int)$args['pid'];
+        $id = (int)$args['id'];
+        $status = (int)$args['status'];
+        $task = new \App\Models\ModelTask($this->db);
+        $result = $task->changeStatus($pid, $id, $status);
+        if ($result) {
+            return $response->withJson(array('status' => 'true'), 200)->withHeader('Access-Control-Allow-Origin', '*')
+                ->withHeader('Access-Control-Allow-Headers', 'X-Requested-With, Content-Type, Accept, Origin, Authorization')
+                ->withHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
+        } else {
+            return $response->withJson(array('status' => 'Task not found'), 422);
+        }
+    }    
 }
