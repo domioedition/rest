@@ -5,7 +5,8 @@
         "filp/whoops": "^2.1",
         "whoops/soap": "^1.0",
         "symfony/var-dumper": "^3.3",
-        "guzzlehttp/guzzle": "^6.1"
+        "guzzlehttp/guzzle": "^6.1",
+        "csanquer/pdo-service-provider": "~1.1dev"
     },
     "autoload": {
         "psr-4": {
