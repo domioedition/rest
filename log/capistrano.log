@@ -1,0 +1,1080 @@
+# Logfile created on 2017-12-03 18:48:18 +0200 by logger.rb/v1.2.7
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-12-03 18:48:18 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [914c934d] Running /usr/bin/env mkdir -p /tmp as deploy@172.104.252.11
+ DEBUG [914c934d] Command: /usr/bin/env mkdir -p /tmp
+  INFO [914c934d] Finished in 0.904 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-control_my_projects_rest-production-marsius.sh 0.0%
+  INFO Uploading /tmp/git-ssh-control_my_projects_rest-production-marsius.sh 100.0%
+  INFO [c21fb7d6] Running /usr/bin/env chmod 700 /tmp/git-ssh-control_my_projects_rest-production-marsius.sh as deploy@172.104.252.11
+ DEBUG [c21fb7d6] Command: /usr/bin/env chmod 700 /tmp/git-ssh-control_my_projects_rest-production-marsius.sh
+  INFO [c21fb7d6] Finished in 0.144 seconds with exit status 0 (successful).
+  INFO [c394db53] Running /usr/bin/env git ls-remote git@github.com:domioedition/rest.git HEAD as deploy@172.104.252.11
+ DEBUG [c394db53] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-control_my_projects_rest-production-marsius.sh" ; /usr/bin/env git ls-remote git@github.com:domioedition/rest.git HEAD )
+ DEBUG [c394db53] 	Warning: Permanently added 'github.com,192.30.253.113' (RSA) to the list of known hosts.
+ DEBUG [c394db53] 	Permission denied (publickey).
+ DEBUG [c394db53] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-12-03 19:15:46 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [749d79e0] Running /usr/bin/env mkdir -p /tmp as deploy@172.104.252.11
+ DEBUG [749d79e0] Command: /usr/bin/env mkdir -p /tmp
+  INFO [749d79e0] Finished in 0.814 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-rest-production-marsius.sh 0.0%
+  INFO Uploading /tmp/git-ssh-rest-production-marsius.sh 100.0%
+  INFO [c3f88925] Running /usr/bin/env chmod 700 /tmp/git-ssh-rest-production-marsius.sh as deploy@172.104.252.11
+ DEBUG [c3f88925] Command: /usr/bin/env chmod 700 /tmp/git-ssh-rest-production-marsius.sh
+  INFO [c3f88925] Finished in 0.096 seconds with exit status 0 (successful).
+  INFO [9d729129] Running /usr/bin/env git ls-remote git@github.com:domioedition/rest.git HEAD as deploy@172.104.252.11
+ DEBUG [9d729129] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rest-production-marsius.sh" ; /usr/bin/env git ls-remote git@github.com:domioedition/rest.git HEAD )
+ DEBUG [9d729129] 	Permission denied (publickey).
+ DEBUG [9d729129] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-12-03 19:15:55 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [9e00de3e] Running /usr/bin/env mkdir -p /tmp as deploy@172.104.252.11
+ DEBUG [9e00de3e] Command: /usr/bin/env mkdir -p /tmp
+  INFO [9e00de3e] Finished in 0.804 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-rest-production-marsius.sh 0.0%
+  INFO Uploading /tmp/git-ssh-rest-production-marsius.sh 100.0%
+  INFO [5deb5e1e] Running /usr/bin/env chmod 700 /tmp/git-ssh-rest-production-marsius.sh as deploy@172.104.252.11
+ DEBUG [5deb5e1e] Command: /usr/bin/env chmod 700 /tmp/git-ssh-rest-production-marsius.sh
+  INFO [5deb5e1e] Finished in 0.095 seconds with exit status 0 (successful).
+  INFO [b73a602a] Running /usr/bin/env git ls-remote git@github.com:domioedition/rest.git HEAD as deploy@172.104.252.11
+ DEBUG [b73a602a] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rest-production-marsius.sh" ; /usr/bin/env git ls-remote git@github.com:domioedition/rest.git HEAD )
+ DEBUG [b73a602a] 	Permission denied (publickey).
+ DEBUG [b73a602a] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-12-03 19:21:22 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [37908e2b] Running /usr/bin/env mkdir -p /tmp as deploy@172.104.252.11
+ DEBUG [37908e2b] Command: /usr/bin/env mkdir -p /tmp
+  INFO [37908e2b] Finished in 0.820 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-rest-production-marsius.sh 0.0%
+  INFO Uploading /tmp/git-ssh-rest-production-marsius.sh 100.0%
+  INFO [3fec3542] Running /usr/bin/env chmod 700 /tmp/git-ssh-rest-production-marsius.sh as deploy@172.104.252.11
+ DEBUG [3fec3542] Command: /usr/bin/env chmod 700 /tmp/git-ssh-rest-production-marsius.sh
+  INFO [3fec3542] Finished in 0.097 seconds with exit status 0 (successful).
+  INFO [22f38b5a] Running /usr/bin/env git ls-remote git@github.com:domioedition/rest.git HEAD as deploy@172.104.252.11
+ DEBUG [22f38b5a] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rest-production-marsius.sh" ; /usr/bin/env git ls-remote git@github.com:domioedition/rest.git HEAD )
+ DEBUG [22f38b5a] 	eb18f15f839be553154fbca9d901e799fc0b430d	HEAD
+  INFO [22f38b5a] Finished in 14.152 seconds with exit status 0 (successful).
+  INFO [fc7c1845] Running /usr/bin/env mkdir -p /home/deploy/apps/rest/shared /home/deploy/apps/rest/releases as deploy@172.104.252.11
+ DEBUG [fc7c1845] Command: /usr/bin/env mkdir -p /home/deploy/apps/rest/shared /home/deploy/apps/rest/releases
+  INFO [fc7c1845] Finished in 0.137 seconds with exit status 0 (successful).
+ DEBUG [95eae78d] Running [ -f /home/deploy/apps/rest/current/REVISION ] as deploy@172.104.252.11
+ DEBUG [95eae78d] Command: [ -f /home/deploy/apps/rest/current/REVISION ]
+ DEBUG [95eae78d] Finished in 0.095 seconds with exit status 1 (failed).
+ DEBUG [a7a552a5] Running [ -f /home/deploy/apps/rest/repo/HEAD ] as deploy@172.104.252.11
+ DEBUG [a7a552a5] Command: [ -f /home/deploy/apps/rest/repo/HEAD ]
+ DEBUG [a7a552a5] Finished in 0.092 seconds with exit status 1 (failed).
+ DEBUG [65d8e417] Running if test ! -d /home/deploy/apps/rest; then echo "Directory does not exist '/home/deploy/apps/rest'" 1>&2; false; fi as deploy@172.104.252.11
+ DEBUG [65d8e417] Command: if test ! -d /home/deploy/apps/rest; then echo "Directory does not exist '/home/deploy/apps/rest'" 1>&2; false; fi
+ DEBUG [65d8e417] Finished in 0.096 seconds with exit status 0 (successful).
+  INFO [c736cc04] Running /usr/bin/env git clone --mirror git@github.com:domioedition/rest.git /home/deploy/apps/rest/repo as deploy@172.104.252.11
+ DEBUG [c736cc04] Command: cd /home/deploy/apps/rest && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rest-production-marsius.sh" ; /usr/bin/env git clone --mirror git@github.com:domioedition/rest.git /home/deploy/apps/rest/repo )
+ DEBUG [c736cc04] 	Cloning into bare repository '/home/deploy/apps/rest/repo'...
+  INFO [c736cc04] Finished in 9.734 seconds with exit status 0 (successful).
+ DEBUG [a769c826] Running if test ! -d /home/deploy/apps/rest/repo; then echo "Directory does not exist '/home/deploy/apps/rest/repo'" 1>&2; false; fi as deploy@172.104.252.11
+ DEBUG [a769c826] Command: if test ! -d /home/deploy/apps/rest/repo; then echo "Directory does not exist '/home/deploy/apps/rest/repo'" 1>&2; false; fi
+ DEBUG [a769c826] Finished in 0.134 seconds with exit status 0 (successful).
+  INFO [7506b151] Running /usr/bin/env git remote set-url origin git@github.com:domioedition/rest.git as deploy@172.104.252.11
+ DEBUG [7506b151] Command: cd /home/deploy/apps/rest/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rest-production-marsius.sh" ; /usr/bin/env git remote set-url origin git@github.com:domioedition/rest.git )
+  INFO [7506b151] Finished in 0.101 seconds with exit status 0 (successful).
+  INFO [82af2a56] Running /usr/bin/env git remote update --prune as deploy@172.104.252.11
+ DEBUG [82af2a56] Command: cd /home/deploy/apps/rest/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rest-production-marsius.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [82af2a56] 	Fetching origin
+  INFO [82af2a56] Finished in 4.112 seconds with exit status 0 (successful).
+ DEBUG [19b021b7] Running if test ! -d /home/deploy/apps/rest/repo; then echo "Directory does not exist '/home/deploy/apps/rest/repo'" 1>&2; false; fi as deploy@172.104.252.11
+ DEBUG [19b021b7] Command: if test ! -d /home/deploy/apps/rest/repo; then echo "Directory does not exist '/home/deploy/apps/rest/repo'" 1>&2; false; fi
+ DEBUG [19b021b7] Finished in 0.135 seconds with exit status 0 (successful).
+  INFO [5461f123] Running /usr/bin/env mkdir -p /home/deploy/apps/rest/releases/20171203172138 as deploy@172.104.252.11
+ DEBUG [5461f123] Command: cd /home/deploy/apps/rest/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rest-production-marsius.sh" ; /usr/bin/env mkdir -p /home/deploy/apps/rest/releases/20171203172138 )
+  INFO [5461f123] Finished in 0.101 seconds with exit status 0 (successful).
+  INFO [92d0aec4] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/deploy/apps/rest/releases/20171203172138 as deploy@172.104.252.11
+ DEBUG [92d0aec4] Command: cd /home/deploy/apps/rest/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rest-production-marsius.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/deploy/apps/rest/releases/20171203172138 )
+  INFO [92d0aec4] Finished in 0.118 seconds with exit status 0 (successful).
+ DEBUG [95c4a1a8] Running if test ! -d /home/deploy/apps/rest/repo; then echo "Directory does not exist '/home/deploy/apps/rest/repo'" 1>&2; false; fi as deploy@172.104.252.11
+ DEBUG [95c4a1a8] Command: if test ! -d /home/deploy/apps/rest/repo; then echo "Directory does not exist '/home/deploy/apps/rest/repo'" 1>&2; false; fi
+ DEBUG [95c4a1a8] Finished in 0.097 seconds with exit status 0 (successful).
+ DEBUG [d4f38a50] Running /usr/bin/env git rev-list --max-count=1 master as deploy@172.104.252.11
+ DEBUG [d4f38a50] Command: cd /home/deploy/apps/rest/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rest-production-marsius.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [d4f38a50] 	eb18f15f839be553154fbca9d901e799fc0b430d
+ DEBUG [d4f38a50] Finished in 0.101 seconds with exit status 0 (successful).
+ DEBUG [71b7013b] Running if test ! -d /home/deploy/apps/rest/releases/20171203172138; then echo "Directory does not exist '/home/deploy/apps/rest/releases/20171203172138'" 1>&2; false; fi as deploy@172.104.252.11
+ DEBUG [71b7013b] Command: if test ! -d /home/deploy/apps/rest/releases/20171203172138; then echo "Directory does not exist '/home/deploy/apps/rest/releases/20171203172138'" 1>&2; false; fi
+ DEBUG [71b7013b] Finished in 0.096 seconds with exit status 0 (successful).
+  INFO [e6f1703e] Running /usr/bin/env echo "eb18f15f839be553154fbca9d901e799fc0b430d" >> REVISION as deploy@172.104.252.11
+ DEBUG [e6f1703e] Command: cd /home/deploy/apps/rest/releases/20171203172138 && /usr/bin/env echo "eb18f15f839be553154fbca9d901e799fc0b430d" >> REVISION
+  INFO [e6f1703e] Finished in 0.114 seconds with exit status 0 (successful).
+ DEBUG [5e6ed329] Running if test ! -d /home/deploy/apps/rest/releases/20171203172138; then echo "Directory does not exist '/home/deploy/apps/rest/releases/20171203172138'" 1>&2; false; fi as deploy@172.104.252.11
+ DEBUG [5e6ed329] Command: if test ! -d /home/deploy/apps/rest/releases/20171203172138; then echo "Directory does not exist '/home/deploy/apps/rest/releases/20171203172138'" 1>&2; false; fi
+ DEBUG [5e6ed329] Finished in 0.100 seconds with exit status 0 (successful).
+  INFO [26e82ba4] Running /usr/bin/env composer install --no-dev --quiet as deploy@172.104.252.11
+ DEBUG [26e82ba4] Command: cd /home/deploy/apps/rest/releases/20171203172138 && /usr/bin/env composer install --no-dev --quiet
+ DEBUG [26e82ba4] 	/usr/bin/env: 
+ DEBUG [26e82ba4] 	'composer'
+ DEBUG [26e82ba4] 	: No such file or directory
+ DEBUG [26e82ba4] 	
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-12-03 19:26:42 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [8adbb264] Running /usr/bin/env mkdir -p /tmp as deploy@172.104.252.11
+ DEBUG [8adbb264] Command: /usr/bin/env mkdir -p /tmp
+  INFO [8adbb264] Finished in 0.823 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-rest-production-marsius.sh 0.0%
+  INFO Uploading /tmp/git-ssh-rest-production-marsius.sh 100.0%
+  INFO [eca846a6] Running /usr/bin/env chmod 700 /tmp/git-ssh-rest-production-marsius.sh as deploy@172.104.252.11
+ DEBUG [eca846a6] Command: /usr/bin/env chmod 700 /tmp/git-ssh-rest-production-marsius.sh
+  INFO [eca846a6] Finished in 0.104 seconds with exit status 0 (successful).
+  INFO [3a250eeb] Running /usr/bin/env git ls-remote git@github.com:domioedition/rest.git HEAD as deploy@172.104.252.11
+ DEBUG [3a250eeb] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rest-production-marsius.sh" ; /usr/bin/env git ls-remote git@github.com:domioedition/rest.git HEAD )
+ DEBUG [3a250eeb] 	eb18f15f839be553154fbca9d901e799fc0b430d	HEAD
+  INFO [3a250eeb] Finished in 19.348 seconds with exit status 0 (successful).
+  INFO [f8d90b11] Running /usr/bin/env mkdir -p /home/deploy/apps/rest/shared /home/deploy/apps/rest/releases as deploy@172.104.252.11
+ DEBUG [f8d90b11] Command: /usr/bin/env mkdir -p /home/deploy/apps/rest/shared /home/deploy/apps/rest/releases
+  INFO [f8d90b11] Finished in 0.118 seconds with exit status 0 (successful).
+ DEBUG [a31b836e] Running [ -f /home/deploy/apps/rest/current/REVISION ] as deploy@172.104.252.11
+ DEBUG [a31b836e] Command: [ -f /home/deploy/apps/rest/current/REVISION ]
+ DEBUG [a31b836e] Finished in 0.117 seconds with exit status 1 (failed).
+ DEBUG [3cc64335] Running [ -f /home/deploy/apps/rest/repo/HEAD ] as deploy@172.104.252.11
+ DEBUG [3cc64335] Command: [ -f /home/deploy/apps/rest/repo/HEAD ]
+ DEBUG [3cc64335] Finished in 0.106 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /home/deploy/apps/rest/repo
+ DEBUG [ff775da0] Running if test ! -d /home/deploy/apps/rest/repo; then echo "Directory does not exist '/home/deploy/apps/rest/repo'" 1>&2; false; fi as deploy@172.104.252.11
+ DEBUG [ff775da0] Command: if test ! -d /home/deploy/apps/rest/repo; then echo "Directory does not exist '/home/deploy/apps/rest/repo'" 1>&2; false; fi
+ DEBUG [ff775da0] Finished in 0.100 seconds with exit status 0 (successful).
+  INFO [2668e61c] Running /usr/bin/env git remote set-url origin git@github.com:domioedition/rest.git as deploy@172.104.252.11
+ DEBUG [2668e61c] Command: cd /home/deploy/apps/rest/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rest-production-marsius.sh" ; /usr/bin/env git remote set-url origin git@github.com:domioedition/rest.git )
+  INFO [2668e61c] Finished in 0.102 seconds with exit status 0 (successful).
+  INFO [424a410e] Running /usr/bin/env git remote update --prune as deploy@172.104.252.11
+ DEBUG [424a410e] Command: cd /home/deploy/apps/rest/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rest-production-marsius.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [424a410e] 	Fetching origin
+  INFO [424a410e] Finished in 10.500 seconds with exit status 0 (successful).
+ DEBUG [6c7e772f] Running if test ! -d /home/deploy/apps/rest/repo; then echo "Directory does not exist '/home/deploy/apps/rest/repo'" 1>&2; false; fi as deploy@172.104.252.11
+ DEBUG [6c7e772f] Command: if test ! -d /home/deploy/apps/rest/repo; then echo "Directory does not exist '/home/deploy/apps/rest/repo'" 1>&2; false; fi
+ DEBUG [6c7e772f] Finished in 0.139 seconds with exit status 0 (successful).
+  INFO [a301083f] Running /usr/bin/env mkdir -p /home/deploy/apps/rest/releases/20171203172703 as deploy@172.104.252.11
+ DEBUG [a301083f] Command: cd /home/deploy/apps/rest/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rest-production-marsius.sh" ; /usr/bin/env mkdir -p /home/deploy/apps/rest/releases/20171203172703 )
+  INFO [a301083f] Finished in 0.108 seconds with exit status 0 (successful).
+  INFO [5378559f] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/deploy/apps/rest/releases/20171203172703 as deploy@172.104.252.11
+ DEBUG [5378559f] Command: cd /home/deploy/apps/rest/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rest-production-marsius.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/deploy/apps/rest/releases/20171203172703 )
+  INFO [5378559f] Finished in 0.142 seconds with exit status 0 (successful).
+ DEBUG [18a7c641] Running if test ! -d /home/deploy/apps/rest/repo; then echo "Directory does not exist '/home/deploy/apps/rest/repo'" 1>&2; false; fi as deploy@172.104.252.11
+ DEBUG [18a7c641] Command: if test ! -d /home/deploy/apps/rest/repo; then echo "Directory does not exist '/home/deploy/apps/rest/repo'" 1>&2; false; fi
+ DEBUG [18a7c641] Finished in 0.098 seconds with exit status 0 (successful).
+ DEBUG [12309b68] Running /usr/bin/env git rev-list --max-count=1 master as deploy@172.104.252.11
+ DEBUG [12309b68] Command: cd /home/deploy/apps/rest/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rest-production-marsius.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [12309b68] 	eb18f15f839be553154fbca9d901e799fc0b430d
+ DEBUG [12309b68] Finished in 0.106 seconds with exit status 0 (successful).
+ DEBUG [c1a7183c] Running if test ! -d /home/deploy/apps/rest/releases/20171203172703; then echo "Directory does not exist '/home/deploy/apps/rest/releases/20171203172703'" 1>&2; false; fi as deploy@172.104.252.11
+ DEBUG [c1a7183c] Command: if test ! -d /home/deploy/apps/rest/releases/20171203172703; then echo "Directory does not exist '/home/deploy/apps/rest/releases/20171203172703'" 1>&2; false; fi
+ DEBUG [c1a7183c] Finished in 0.105 seconds with exit status 0 (successful).
+  INFO [94c5d2c9] Running /usr/bin/env echo "eb18f15f839be553154fbca9d901e799fc0b430d" >> REVISION as deploy@172.104.252.11
+ DEBUG [94c5d2c9] Command: cd /home/deploy/apps/rest/releases/20171203172703 && /usr/bin/env echo "eb18f15f839be553154fbca9d901e799fc0b430d" >> REVISION
+  INFO [94c5d2c9] Finished in 0.097 seconds with exit status 0 (successful).
+ DEBUG [0249dc23] Running if test ! -d /home/deploy/apps/rest/releases/20171203172703; then echo "Directory does not exist '/home/deploy/apps/rest/releases/20171203172703'" 1>&2; false; fi as deploy@172.104.252.11
+ DEBUG [0249dc23] Command: if test ! -d /home/deploy/apps/rest/releases/20171203172703; then echo "Directory does not exist '/home/deploy/apps/rest/releases/20171203172703'" 1>&2; false; fi
+ DEBUG [0249dc23] Finished in 0.096 seconds with exit status 0 (successful).
+  INFO [083ce8ab] Running /usr/bin/env composer install --no-dev --quiet as deploy@172.104.252.11
+ DEBUG [083ce8ab] Command: cd /home/deploy/apps/rest/releases/20171203172703 && /usr/bin/env composer install --no-dev --quiet
+  INFO [083ce8ab] Finished in 23.208 seconds with exit status 0 (successful).
+  INFO [bf576885] Running /usr/bin/env ln -s /home/deploy/apps/rest/releases/20171203172703 /home/deploy/apps/rest/releases/current as deploy@172.104.252.11
+ DEBUG [bf576885] Command: /usr/bin/env ln -s /home/deploy/apps/rest/releases/20171203172703 /home/deploy/apps/rest/releases/current
+  INFO [bf576885] Finished in 0.160 seconds with exit status 0 (successful).
+  INFO [d03c368e] Running /usr/bin/env mv /home/deploy/apps/rest/releases/current /home/deploy/apps/rest as deploy@172.104.252.11
+ DEBUG [d03c368e] Command: /usr/bin/env mv /home/deploy/apps/rest/releases/current /home/deploy/apps/rest
+ DEBUG [d03c368e] 	mv: 
+ DEBUG [d03c368e] 	cannot overwrite directory '/home/deploy/apps/rest/current' with non-directory
+ DEBUG [d03c368e] 	
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-12-03 19:28:18 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [20c16bfd] Running /usr/bin/env mkdir -p /tmp as deploy@172.104.252.11
+ DEBUG [20c16bfd] Command: /usr/bin/env mkdir -p /tmp
+  INFO [20c16bfd] Finished in 0.781 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-rest-production-marsius.sh 0.0%
+  INFO Uploading /tmp/git-ssh-rest-production-marsius.sh 100.0%
+  INFO [4a43adb1] Running /usr/bin/env chmod 700 /tmp/git-ssh-rest-production-marsius.sh as deploy@172.104.252.11
+ DEBUG [4a43adb1] Command: /usr/bin/env chmod 700 /tmp/git-ssh-rest-production-marsius.sh
+  INFO [4a43adb1] Finished in 0.095 seconds with exit status 0 (successful).
+  INFO [a96c6281] Running /usr/bin/env git ls-remote git@github.com:domioedition/rest.git HEAD as deploy@172.104.252.11
+ DEBUG [a96c6281] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rest-production-marsius.sh" ; /usr/bin/env git ls-remote git@github.com:domioedition/rest.git HEAD )
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-12-03 19:33:08 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [33e768bb] Running /usr/bin/env mkdir -p /tmp as deploy@172.104.252.11
+ DEBUG [33e768bb] Command: /usr/bin/env mkdir -p /tmp
+  INFO [33e768bb] Finished in 0.757 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-rest-production-marsius.sh 0.0%
+  INFO Uploading /tmp/git-ssh-rest-production-marsius.sh 100.0%
+  INFO [bf700657] Running /usr/bin/env chmod 700 /tmp/git-ssh-rest-production-marsius.sh as deploy@172.104.252.11
+ DEBUG [bf700657] Command: /usr/bin/env chmod 700 /tmp/git-ssh-rest-production-marsius.sh
+  INFO [bf700657] Finished in 0.103 seconds with exit status 0 (successful).
+  INFO [4b38e0a9] Running /usr/bin/env git ls-remote git@github.com:domioedition/rest.git HEAD as deploy@172.104.252.11
+ DEBUG [4b38e0a9] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rest-production-marsius.sh" ; /usr/bin/env git ls-remote git@github.com:domioedition/rest.git HEAD )
+ DEBUG [4b38e0a9] 	Warning: Permanently added the RSA host key for IP address '192.30.253.112' to the list of known hosts.
+ DEBUG [4b38e0a9] 	eb18f15f839be553154fbca9d901e799fc0b430d	HEAD
+  INFO [4b38e0a9] Finished in 7.550 seconds with exit status 0 (successful).
+  INFO [f4a7fc2a] Running /usr/bin/env mkdir -p /home/deploy/apps/rest/shared /home/deploy/apps/rest/releases as deploy@172.104.252.11
+ DEBUG [f4a7fc2a] Command: /usr/bin/env mkdir -p /home/deploy/apps/rest/shared /home/deploy/apps/rest/releases
+  INFO [f4a7fc2a] Finished in 0.141 seconds with exit status 0 (successful).
+ DEBUG [62df6614] Running [ -f /home/deploy/apps/rest/current/REVISION ] as deploy@172.104.252.11
+ DEBUG [62df6614] Command: [ -f /home/deploy/apps/rest/current/REVISION ]
+ DEBUG [62df6614] Finished in 0.093 seconds with exit status 1 (failed).
+ DEBUG [0ce4cd25] Running [ -f /home/deploy/apps/rest/repo/HEAD ] as deploy@172.104.252.11
+ DEBUG [0ce4cd25] Command: [ -f /home/deploy/apps/rest/repo/HEAD ]
+ DEBUG [0ce4cd25] Finished in 0.095 seconds with exit status 1 (failed).
+ DEBUG [53dd11ad] Running if test ! -d /home/deploy/apps/rest; then echo "Directory does not exist '/home/deploy/apps/rest'" 1>&2; false; fi as deploy@172.104.252.11
+ DEBUG [53dd11ad] Command: if test ! -d /home/deploy/apps/rest; then echo "Directory does not exist '/home/deploy/apps/rest'" 1>&2; false; fi
+ DEBUG [53dd11ad] Finished in 0.095 seconds with exit status 0 (successful).
+  INFO [4832dea1] Running /usr/bin/env git clone --mirror git@github.com:domioedition/rest.git /home/deploy/apps/rest/repo as deploy@172.104.252.11
+ DEBUG [4832dea1] Command: cd /home/deploy/apps/rest && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rest-production-marsius.sh" ; /usr/bin/env git clone --mirror git@github.com:domioedition/rest.git /home/deploy/apps/rest/repo )
+ DEBUG [4832dea1] 	Cloning into bare repository '/home/deploy/apps/rest/repo'...
+  INFO [4832dea1] Finished in 54.282 seconds with exit status 0 (successful).
+ DEBUG [139a07ca] Running if test ! -d /home/deploy/apps/rest/repo; then echo "Directory does not exist '/home/deploy/apps/rest/repo'" 1>&2; false; fi as deploy@172.104.252.11
+ DEBUG [139a07ca] Command: if test ! -d /home/deploy/apps/rest/repo; then echo "Directory does not exist '/home/deploy/apps/rest/repo'" 1>&2; false; fi
+ DEBUG [139a07ca] Finished in 0.148 seconds with exit status 0 (successful).
+  INFO [a433f763] Running /usr/bin/env git remote set-url origin git@github.com:domioedition/rest.git as deploy@172.104.252.11
+ DEBUG [a433f763] Command: cd /home/deploy/apps/rest/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rest-production-marsius.sh" ; /usr/bin/env git remote set-url origin git@github.com:domioedition/rest.git )
+  INFO [a433f763] Finished in 0.103 seconds with exit status 0 (successful).
+  INFO [52d4ec1f] Running /usr/bin/env git remote update --prune as deploy@172.104.252.11
+ DEBUG [52d4ec1f] Command: cd /home/deploy/apps/rest/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rest-production-marsius.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [52d4ec1f] 	Fetching origin
+  INFO [52d4ec1f] Finished in 18.810 seconds with exit status 0 (successful).
+ DEBUG [397f0f9f] Running if test ! -d /home/deploy/apps/rest/repo; then echo "Directory does not exist '/home/deploy/apps/rest/repo'" 1>&2; false; fi as deploy@172.104.252.11
+ DEBUG [397f0f9f] Command: if test ! -d /home/deploy/apps/rest/repo; then echo "Directory does not exist '/home/deploy/apps/rest/repo'" 1>&2; false; fi
+ DEBUG [397f0f9f] Finished in 0.163 seconds with exit status 0 (successful).
+  INFO [36e65c92] Running /usr/bin/env mkdir -p /home/deploy/apps/rest/releases/20171203173317 as deploy@172.104.252.11
+ DEBUG [36e65c92] Command: cd /home/deploy/apps/rest/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rest-production-marsius.sh" ; /usr/bin/env mkdir -p /home/deploy/apps/rest/releases/20171203173317 )
+  INFO [36e65c92] Finished in 0.105 seconds with exit status 0 (successful).
+  INFO [7777402f] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/deploy/apps/rest/releases/20171203173317 as deploy@172.104.252.11
+ DEBUG [7777402f] Command: cd /home/deploy/apps/rest/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rest-production-marsius.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/deploy/apps/rest/releases/20171203173317 )
+  INFO [7777402f] Finished in 0.138 seconds with exit status 0 (successful).
+ DEBUG [d0ec7e88] Running if test ! -d /home/deploy/apps/rest/repo; then echo "Directory does not exist '/home/deploy/apps/rest/repo'" 1>&2; false; fi as deploy@172.104.252.11
+ DEBUG [d0ec7e88] Command: if test ! -d /home/deploy/apps/rest/repo; then echo "Directory does not exist '/home/deploy/apps/rest/repo'" 1>&2; false; fi
+ DEBUG [d0ec7e88] Finished in 0.117 seconds with exit status 0 (successful).
+ DEBUG [8338a065] Running /usr/bin/env git rev-list --max-count=1 master as deploy@172.104.252.11
+ DEBUG [8338a065] Command: cd /home/deploy/apps/rest/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rest-production-marsius.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [8338a065] 	eb18f15f839be553154fbca9d901e799fc0b430d
+ DEBUG [8338a065] Finished in 0.113 seconds with exit status 0 (successful).
+ DEBUG [18d64932] Running if test ! -d /home/deploy/apps/rest/releases/20171203173317; then echo "Directory does not exist '/home/deploy/apps/rest/releases/20171203173317'" 1>&2; false; fi as deploy@172.104.252.11
+ DEBUG [18d64932] Command: if test ! -d /home/deploy/apps/rest/releases/20171203173317; then echo "Directory does not exist '/home/deploy/apps/rest/releases/20171203173317'" 1>&2; false; fi
+ DEBUG [18d64932] Finished in 0.106 seconds with exit status 0 (successful).
+  INFO [1919f79f] Running /usr/bin/env echo "eb18f15f839be553154fbca9d901e799fc0b430d" >> REVISION as deploy@172.104.252.11
+ DEBUG [1919f79f] Command: cd /home/deploy/apps/rest/releases/20171203173317 && /usr/bin/env echo "eb18f15f839be553154fbca9d901e799fc0b430d" >> REVISION
+  INFO [1919f79f] Finished in 0.098 seconds with exit status 0 (successful).
+ DEBUG [4f78a198] Running if test ! -d /home/deploy/apps/rest/releases/20171203173317; then echo "Directory does not exist '/home/deploy/apps/rest/releases/20171203173317'" 1>&2; false; fi as deploy@172.104.252.11
+ DEBUG [4f78a198] Command: if test ! -d /home/deploy/apps/rest/releases/20171203173317; then echo "Directory does not exist '/home/deploy/apps/rest/releases/20171203173317'" 1>&2; false; fi
+ DEBUG [4f78a198] Finished in 0.100 seconds with exit status 0 (successful).
+  INFO [5f37ca33] Running /usr/bin/env composer install --no-dev --quiet as deploy@172.104.252.11
+ DEBUG [5f37ca33] Command: cd /home/deploy/apps/rest/releases/20171203173317 && /usr/bin/env composer install --no-dev --quiet
+  INFO [5f37ca33] Finished in 60.177 seconds with exit status 0 (successful).
+  INFO [c4bc1fc8] Running /usr/bin/env ln -s /home/deploy/apps/rest/releases/20171203173317 /home/deploy/apps/rest/releases/current as deploy@172.104.252.11
+ DEBUG [c4bc1fc8] Command: /usr/bin/env ln -s /home/deploy/apps/rest/releases/20171203173317 /home/deploy/apps/rest/releases/current
+  INFO [c4bc1fc8] Finished in 0.155 seconds with exit status 0 (successful).
+  INFO [68d8b866] Running /usr/bin/env mv /home/deploy/apps/rest/releases/current /home/deploy/apps/rest as deploy@172.104.252.11
+ DEBUG [68d8b866] Command: /usr/bin/env mv /home/deploy/apps/rest/releases/current /home/deploy/apps/rest
+  INFO [68d8b866] Finished in 0.161 seconds with exit status 0 (successful).
+ DEBUG [354a24ce] Running /usr/bin/env ls -x /home/deploy/apps/rest/releases as deploy@172.104.252.11
+ DEBUG [354a24ce] Command: /usr/bin/env ls -x /home/deploy/apps/rest/releases
+ DEBUG [354a24ce] 	20171203173317
+ DEBUG [354a24ce] Finished in 0.113 seconds with exit status 0 (successful).
+ DEBUG [dc182768] Running if test ! -d /home/deploy/apps/rest/releases; then echo "Directory does not exist '/home/deploy/apps/rest/releases'" 1>&2; false; fi as deploy@172.104.252.11
+ DEBUG [dc182768] Command: if test ! -d /home/deploy/apps/rest/releases; then echo "Directory does not exist '/home/deploy/apps/rest/releases'" 1>&2; false; fi
+ DEBUG [dc182768] Finished in 0.131 seconds with exit status 0 (successful).
+  INFO [6d4a2dc9] Running /usr/bin/env echo "Branch master (at eb18f15f839be553154fbca9d901e799fc0b430d) deployed as release 20171203173317 by marsius" >> /home/deploy/apps/rest/revisions.log as deploy@172.104.252.11
+ DEBUG [6d4a2dc9] Command: cd /home/deploy/apps/rest/releases && /usr/bin/env echo "Branch master (at eb18f15f839be553154fbca9d901e799fc0b430d) deployed as release 20171203173317 by marsius" >> /home/deploy/apps/rest/revisions.log
+  INFO [6d4a2dc9] Finished in 0.109 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-12-03 21:01:03 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [a7ea87a4] Running /usr/bin/env mkdir -p /tmp as deploy@172.104.252.11
+ DEBUG [a7ea87a4] Command: /usr/bin/env mkdir -p /tmp
+  INFO [a7ea87a4] Finished in 8.223 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-rest-production-marsius.sh 0.0%
+  INFO Uploading /tmp/git-ssh-rest-production-marsius.sh 100.0%
+  INFO [30d91d97] Running /usr/bin/env chmod 700 /tmp/git-ssh-rest-production-marsius.sh as deploy@172.104.252.11
+ DEBUG [30d91d97] Command: /usr/bin/env chmod 700 /tmp/git-ssh-rest-production-marsius.sh
+  INFO [30d91d97] Finished in 0.095 seconds with exit status 0 (successful).
+  INFO [8230ba2c] Running /usr/bin/env git ls-remote git@github.com:domioedition/rest.git HEAD as deploy@172.104.252.11
+ DEBUG [8230ba2c] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rest-production-marsius.sh" ; /usr/bin/env git ls-remote git@github.com:domioedition/rest.git HEAD )
+ DEBUG [8230ba2c] 	eb18f15f839be553154fbca9d901e799fc0b430d	HEAD
+  INFO [8230ba2c] Finished in 11.131 seconds with exit status 0 (successful).
+  INFO [d2d91102] Running /usr/bin/env mkdir -p /var/www/html/shared /var/www/html/releases as deploy@172.104.252.11
+ DEBUG [d2d91102] Command: /usr/bin/env mkdir -p /var/www/html/shared /var/www/html/releases
+ DEBUG [d2d91102] 	mkdir: 
+ DEBUG [d2d91102] 	cannot create directory '/var/www/html/shared'
+ DEBUG [d2d91102] 	: Permission denied
+ DEBUG [d2d91102] 	
+ DEBUG [d2d91102] 	mkdir: 
+ DEBUG [d2d91102] 	cannot create directory '/var/www/html/releases'
+ DEBUG [d2d91102] 	: Permission denied
+ DEBUG [d2d91102] 	
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-12-03 21:02:43 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [3fd417b5] Running /usr/bin/env mkdir -p /tmp as deploy@172.104.252.11
+ DEBUG [3fd417b5] Command: /usr/bin/env mkdir -p /tmp
+  INFO [3fd417b5] Finished in 0.779 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-rest-production-marsius.sh 0.0%
+  INFO Uploading /tmp/git-ssh-rest-production-marsius.sh 100.0%
+  INFO [8c7e541f] Running /usr/bin/env chmod 700 /tmp/git-ssh-rest-production-marsius.sh as deploy@172.104.252.11
+ DEBUG [8c7e541f] Command: /usr/bin/env chmod 700 /tmp/git-ssh-rest-production-marsius.sh
+  INFO [8c7e541f] Finished in 0.106 seconds with exit status 0 (successful).
+  INFO [42379e1a] Running /usr/bin/env git ls-remote git@github.com:domioedition/rest.git HEAD as deploy@172.104.252.11
+ DEBUG [42379e1a] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rest-production-marsius.sh" ; /usr/bin/env git ls-remote git@github.com:domioedition/rest.git HEAD )
+ DEBUG [42379e1a] 	eb18f15f839be553154fbca9d901e799fc0b430d	HEAD
+  INFO [42379e1a] Finished in 12.352 seconds with exit status 0 (successful).
+  INFO [d96c9041] Running /usr/bin/env mkdir -p /var/www/html/shared /var/www/html/releases as deploy@172.104.252.11
+ DEBUG [d96c9041] Command: /usr/bin/env mkdir -p /var/www/html/shared /var/www/html/releases
+  INFO [d96c9041] Finished in 0.190 seconds with exit status 0 (successful).
+ DEBUG [9a323137] Running [ -f /var/www/html/current/REVISION ] as deploy@172.104.252.11
+ DEBUG [9a323137] Command: [ -f /var/www/html/current/REVISION ]
+ DEBUG [9a323137] Finished in 0.091 seconds with exit status 1 (failed).
+ DEBUG [7c4ee836] Running [ -f /var/www/html/repo/HEAD ] as deploy@172.104.252.11
+ DEBUG [7c4ee836] Command: [ -f /var/www/html/repo/HEAD ]
+ DEBUG [7c4ee836] Finished in 0.094 seconds with exit status 1 (failed).
+ DEBUG [3d4b7d45] Running if test ! -d /var/www/html; then echo "Directory does not exist '/var/www/html'" 1>&2; false; fi as deploy@172.104.252.11
+ DEBUG [3d4b7d45] Command: if test ! -d /var/www/html; then echo "Directory does not exist '/var/www/html'" 1>&2; false; fi
+ DEBUG [3d4b7d45] Finished in 0.096 seconds with exit status 0 (successful).
+  INFO [933fc2f9] Running /usr/bin/env git clone --mirror git@github.com:domioedition/rest.git /var/www/html/repo as deploy@172.104.252.11
+ DEBUG [933fc2f9] Command: cd /var/www/html && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rest-production-marsius.sh" ; /usr/bin/env git clone --mirror git@github.com:domioedition/rest.git /var/www/html/repo )
+ DEBUG [933fc2f9] 	Cloning into bare repository '/var/www/html/repo'...
+  INFO [933fc2f9] Finished in 2.276 seconds with exit status 0 (successful).
+ DEBUG [96501b83] Running if test ! -d /var/www/html/repo; then echo "Directory does not exist '/var/www/html/repo'" 1>&2; false; fi as deploy@172.104.252.11
+ DEBUG [96501b83] Command: if test ! -d /var/www/html/repo; then echo "Directory does not exist '/var/www/html/repo'" 1>&2; false; fi
+ DEBUG [96501b83] Finished in 0.137 seconds with exit status 0 (successful).
+  INFO [3f2ab8ba] Running /usr/bin/env git remote set-url origin git@github.com:domioedition/rest.git as deploy@172.104.252.11
+ DEBUG [3f2ab8ba] Command: cd /var/www/html/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rest-production-marsius.sh" ; /usr/bin/env git remote set-url origin git@github.com:domioedition/rest.git )
+  INFO [3f2ab8ba] Finished in 0.100 seconds with exit status 0 (successful).
+  INFO [876777bd] Running /usr/bin/env git remote update --prune as deploy@172.104.252.11
+ DEBUG [876777bd] Command: cd /var/www/html/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rest-production-marsius.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [876777bd] 	Fetching origin
+  INFO [876777bd] Finished in 1.975 seconds with exit status 0 (successful).
+ DEBUG [79779ae2] Running if test ! -d /var/www/html/repo; then echo "Directory does not exist '/var/www/html/repo'" 1>&2; false; fi as deploy@172.104.252.11
+ DEBUG [79779ae2] Command: if test ! -d /var/www/html/repo; then echo "Directory does not exist '/var/www/html/repo'" 1>&2; false; fi
+ DEBUG [79779ae2] Finished in 0.142 seconds with exit status 0 (successful).
+  INFO [3aa08b74] Running /usr/bin/env mkdir -p /var/www/html/releases/20171203190257 as deploy@172.104.252.11
+ DEBUG [3aa08b74] Command: cd /var/www/html/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rest-production-marsius.sh" ; /usr/bin/env mkdir -p /var/www/html/releases/20171203190257 )
+  INFO [3aa08b74] Finished in 0.103 seconds with exit status 0 (successful).
+  INFO [7b0f9fb4] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/html/releases/20171203190257 as deploy@172.104.252.11
+ DEBUG [7b0f9fb4] Command: cd /var/www/html/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rest-production-marsius.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/html/releases/20171203190257 )
+  INFO [7b0f9fb4] Finished in 0.207 seconds with exit status 0 (successful).
+ DEBUG [31c1b075] Running if test ! -d /var/www/html/repo; then echo "Directory does not exist '/var/www/html/repo'" 1>&2; false; fi as deploy@172.104.252.11
+ DEBUG [31c1b075] Command: if test ! -d /var/www/html/repo; then echo "Directory does not exist '/var/www/html/repo'" 1>&2; false; fi
+ DEBUG [31c1b075] Finished in 0.119 seconds with exit status 0 (successful).
+ DEBUG [700a0ef1] Running /usr/bin/env git rev-list --max-count=1 master as deploy@172.104.252.11
+ DEBUG [700a0ef1] Command: cd /var/www/html/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rest-production-marsius.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [700a0ef1] 	eb18f15f839be553154fbca9d901e799fc0b430d
+ DEBUG [700a0ef1] Finished in 0.098 seconds with exit status 0 (successful).
+ DEBUG [ef1d57ab] Running if test ! -d /var/www/html/releases/20171203190257; then echo "Directory does not exist '/var/www/html/releases/20171203190257'" 1>&2; false; fi as deploy@172.104.252.11
+ DEBUG [ef1d57ab] Command: if test ! -d /var/www/html/releases/20171203190257; then echo "Directory does not exist '/var/www/html/releases/20171203190257'" 1>&2; false; fi
+ DEBUG [ef1d57ab] Finished in 0.098 seconds with exit status 0 (successful).
+  INFO [61aea8b8] Running /usr/bin/env echo "eb18f15f839be553154fbca9d901e799fc0b430d" >> REVISION as deploy@172.104.252.11
+ DEBUG [61aea8b8] Command: cd /var/www/html/releases/20171203190257 && /usr/bin/env echo "eb18f15f839be553154fbca9d901e799fc0b430d" >> REVISION
+  INFO [61aea8b8] Finished in 0.096 seconds with exit status 0 (successful).
+ DEBUG [10de3914] Running if test ! -d /var/www/html/releases/20171203190257; then echo "Directory does not exist '/var/www/html/releases/20171203190257'" 1>&2; false; fi as deploy@172.104.252.11
+ DEBUG [10de3914] Command: if test ! -d /var/www/html/releases/20171203190257; then echo "Directory does not exist '/var/www/html/releases/20171203190257'" 1>&2; false; fi
+ DEBUG [10de3914] Finished in 0.097 seconds with exit status 0 (successful).
+  INFO [38be78cf] Running /usr/bin/env composer install --no-dev --quiet as deploy@172.104.252.11
+ DEBUG [38be78cf] Command: cd /var/www/html/releases/20171203190257 && /usr/bin/env composer install --no-dev --quiet
+  INFO [38be78cf] Finished in 2.148 seconds with exit status 0 (successful).
+  INFO [4c86bd48] Running /usr/bin/env ln -s /var/www/html/releases/20171203190257 /var/www/html/releases/current as deploy@172.104.252.11
+ DEBUG [4c86bd48] Command: /usr/bin/env ln -s /var/www/html/releases/20171203190257 /var/www/html/releases/current
+  INFO [4c86bd48] Finished in 0.098 seconds with exit status 0 (successful).
+  INFO [c3b70b73] Running /usr/bin/env mv /var/www/html/releases/current /var/www/html as deploy@172.104.252.11
+ DEBUG [c3b70b73] Command: /usr/bin/env mv /var/www/html/releases/current /var/www/html
+  INFO [c3b70b73] Finished in 0.093 seconds with exit status 0 (successful).
+ DEBUG [419753b5] Running /usr/bin/env ls -x /var/www/html/releases as deploy@172.104.252.11
+ DEBUG [419753b5] Command: /usr/bin/env ls -x /var/www/html/releases
+ DEBUG [419753b5] 	20171203190257
+ DEBUG [419753b5] Finished in 0.097 seconds with exit status 0 (successful).
+ DEBUG [72fa8414] Running if test ! -d /var/www/html/releases; then echo "Directory does not exist '/var/www/html/releases'" 1>&2; false; fi as deploy@172.104.252.11
+ DEBUG [72fa8414] Command: if test ! -d /var/www/html/releases; then echo "Directory does not exist '/var/www/html/releases'" 1>&2; false; fi
+ DEBUG [72fa8414] Finished in 0.095 seconds with exit status 0 (successful).
+  INFO [d3e263b2] Running /usr/bin/env echo "Branch master (at eb18f15f839be553154fbca9d901e799fc0b430d) deployed as release 20171203190257 by marsius" >> /var/www/html/revisions.log as deploy@172.104.252.11
+ DEBUG [d3e263b2] Command: cd /var/www/html/releases && /usr/bin/env echo "Branch master (at eb18f15f839be553154fbca9d901e799fc0b430d) deployed as release 20171203190257 by marsius" >> /var/www/html/revisions.log
+  INFO [d3e263b2] Finished in 0.095 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-12-03 21:14:52 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [7c235fdb] Running /usr/bin/env mkdir -p /tmp as deploy@172.104.252.11
+ DEBUG [7c235fdb] Command: /usr/bin/env mkdir -p /tmp
+  INFO [7c235fdb] Finished in 0.857 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-rest-production-marsius.sh 0.0%
+  INFO Uploading /tmp/git-ssh-rest-production-marsius.sh 100.0%
+  INFO [04aef27c] Running /usr/bin/env chmod 700 /tmp/git-ssh-rest-production-marsius.sh as deploy@172.104.252.11
+ DEBUG [04aef27c] Command: /usr/bin/env chmod 700 /tmp/git-ssh-rest-production-marsius.sh
+  INFO [04aef27c] Finished in 0.101 seconds with exit status 0 (successful).
+  INFO [e9482743] Running /usr/bin/env git ls-remote git@github.com:domioedition/rest.git HEAD as deploy@172.104.252.11
+ DEBUG [e9482743] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rest-production-marsius.sh" ; /usr/bin/env git ls-remote git@github.com:domioedition/rest.git HEAD )
+ DEBUG [e9482743] 	eb18f15f839be553154fbca9d901e799fc0b430d	HEAD
+  INFO [e9482743] Finished in 21.814 seconds with exit status 0 (successful).
+  INFO [408a6b03] Running /usr/bin/env mkdir -p /var/www/html/shared /var/www/html/releases as deploy@172.104.252.11
+ DEBUG [408a6b03] Command: /usr/bin/env mkdir -p /var/www/html/shared /var/www/html/releases
+  INFO [408a6b03] Finished in 0.106 seconds with exit status 0 (successful).
+ DEBUG [4cfc8c04] Running [ -f /var/www/html/current/REVISION ] as deploy@172.104.252.11
+ DEBUG [4cfc8c04] Command: [ -f /var/www/html/current/REVISION ]
+ DEBUG [4cfc8c04] Finished in 0.093 seconds with exit status 1 (failed).
+ DEBUG [1c8f7ad1] Running [ -f /var/www/html/repo/HEAD ] as deploy@172.104.252.11
+ DEBUG [1c8f7ad1] Command: [ -f /var/www/html/repo/HEAD ]
+ DEBUG [1c8f7ad1] Finished in 0.096 seconds with exit status 1 (failed).
+ DEBUG [0a2b8efd] Running if test ! -d /var/www/html; then echo "Directory does not exist '/var/www/html'" 1>&2; false; fi as deploy@172.104.252.11
+ DEBUG [0a2b8efd] Command: if test ! -d /var/www/html; then echo "Directory does not exist '/var/www/html'" 1>&2; false; fi
+ DEBUG [0a2b8efd] Finished in 0.099 seconds with exit status 0 (successful).
+  INFO [b5c7b850] Running /usr/bin/env git clone --mirror git@github.com:domioedition/rest.git /var/www/html/repo as deploy@172.104.252.11
+ DEBUG [b5c7b850] Command: cd /var/www/html && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rest-production-marsius.sh" ; /usr/bin/env git clone --mirror git@github.com:domioedition/rest.git /var/www/html/repo )
+ DEBUG [b5c7b850] 	Cloning into bare repository '/var/www/html/repo'...
+  INFO [b5c7b850] Finished in 3.573 seconds with exit status 0 (successful).
+ DEBUG [1577fc5f] Running if test ! -d /var/www/html/repo; then echo "Directory does not exist '/var/www/html/repo'" 1>&2; false; fi as deploy@172.104.252.11
+ DEBUG [1577fc5f] Command: if test ! -d /var/www/html/repo; then echo "Directory does not exist '/var/www/html/repo'" 1>&2; false; fi
+ DEBUG [1577fc5f] Finished in 0.134 seconds with exit status 0 (successful).
+  INFO [16f2302a] Running /usr/bin/env git remote set-url origin git@github.com:domioedition/rest.git as deploy@172.104.252.11
+ DEBUG [16f2302a] Command: cd /var/www/html/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rest-production-marsius.sh" ; /usr/bin/env git remote set-url origin git@github.com:domioedition/rest.git )
+  INFO [16f2302a] Finished in 0.107 seconds with exit status 0 (successful).
+  INFO [e7c8b11c] Running /usr/bin/env git remote update --prune as deploy@172.104.252.11
+ DEBUG [e7c8b11c] Command: cd /var/www/html/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rest-production-marsius.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [e7c8b11c] 	Fetching origin
+  INFO [e7c8b11c] Finished in 2.367 seconds with exit status 0 (successful).
+ DEBUG [7560a8e0] Running if test ! -d /var/www/html/repo; then echo "Directory does not exist '/var/www/html/repo'" 1>&2; false; fi as deploy@172.104.252.11
+ DEBUG [7560a8e0] Command: if test ! -d /var/www/html/repo; then echo "Directory does not exist '/var/www/html/repo'" 1>&2; false; fi
+ DEBUG [7560a8e0] Finished in 0.135 seconds with exit status 0 (successful).
+  INFO [0f2dc9f2] Running /usr/bin/env mkdir -p /var/www/html/releases/20171203191515 as deploy@172.104.252.11
+ DEBUG [0f2dc9f2] Command: cd /var/www/html/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rest-production-marsius.sh" ; /usr/bin/env mkdir -p /var/www/html/releases/20171203191515 )
+  INFO [0f2dc9f2] Finished in 0.100 seconds with exit status 0 (successful).
+  INFO [380ec992] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/html/releases/20171203191515 as deploy@172.104.252.11
+ DEBUG [380ec992] Command: cd /var/www/html/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rest-production-marsius.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/html/releases/20171203191515 )
+  INFO [380ec992] Finished in 0.121 seconds with exit status 0 (successful).
+ DEBUG [d1ae4fa0] Running if test ! -d /var/www/html/repo; then echo "Directory does not exist '/var/www/html/repo'" 1>&2; false; fi as deploy@172.104.252.11
+ DEBUG [d1ae4fa0] Command: if test ! -d /var/www/html/repo; then echo "Directory does not exist '/var/www/html/repo'" 1>&2; false; fi
+ DEBUG [d1ae4fa0] Finished in 0.091 seconds with exit status 0 (successful).
+ DEBUG [f9a8ff93] Running /usr/bin/env git rev-list --max-count=1 master as deploy@172.104.252.11
+ DEBUG [f9a8ff93] Command: cd /var/www/html/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rest-production-marsius.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [f9a8ff93] 	eb18f15f839be553154fbca9d901e799fc0b430d
+ DEBUG [f9a8ff93] Finished in 0.098 seconds with exit status 0 (successful).
+ DEBUG [f141e13f] Running if test ! -d /var/www/html/releases/20171203191515; then echo "Directory does not exist '/var/www/html/releases/20171203191515'" 1>&2; false; fi as deploy@172.104.252.11
+ DEBUG [f141e13f] Command: if test ! -d /var/www/html/releases/20171203191515; then echo "Directory does not exist '/var/www/html/releases/20171203191515'" 1>&2; false; fi
+ DEBUG [f141e13f] Finished in 0.096 seconds with exit status 0 (successful).
+  INFO [b72a86a6] Running /usr/bin/env echo "eb18f15f839be553154fbca9d901e799fc0b430d" >> REVISION as deploy@172.104.252.11
+ DEBUG [b72a86a6] Command: cd /var/www/html/releases/20171203191515 && /usr/bin/env echo "eb18f15f839be553154fbca9d901e799fc0b430d" >> REVISION
+  INFO [b72a86a6] Finished in 0.091 seconds with exit status 0 (successful).
+ DEBUG [c16a4de3] Running if test ! -d /var/www/html/releases/20171203191515; then echo "Directory does not exist '/var/www/html/releases/20171203191515'" 1>&2; false; fi as deploy@172.104.252.11
+ DEBUG [c16a4de3] Command: if test ! -d /var/www/html/releases/20171203191515; then echo "Directory does not exist '/var/www/html/releases/20171203191515'" 1>&2; false; fi
+ DEBUG [c16a4de3] Finished in 0.095 seconds with exit status 0 (successful).
+  INFO [fe2196c1] Running /usr/bin/env composer install --no-dev --quiet as deploy@172.104.252.11
+ DEBUG [fe2196c1] Command: cd /var/www/html/releases/20171203191515 && /usr/bin/env composer install --no-dev --quiet
+  INFO [fe2196c1] Finished in 0.659 seconds with exit status 0 (successful).
+  INFO [a4a71523] Running /usr/bin/env ln -s /var/www/html/releases/20171203191515 /var/www/html/releases/current as deploy@172.104.252.11
+ DEBUG [a4a71523] Command: /usr/bin/env ln -s /var/www/html/releases/20171203191515 /var/www/html/releases/current
+  INFO [a4a71523] Finished in 0.094 seconds with exit status 0 (successful).
+  INFO [ba8395bc] Running /usr/bin/env mv /var/www/html/releases/current /var/www/html as deploy@172.104.252.11
+ DEBUG [ba8395bc] Command: /usr/bin/env mv /var/www/html/releases/current /var/www/html
+  INFO [ba8395bc] Finished in 0.095 seconds with exit status 0 (successful).
+ DEBUG [42aa8f82] Running /usr/bin/env ls -x /var/www/html/releases as deploy@172.104.252.11
+ DEBUG [42aa8f82] Command: /usr/bin/env ls -x /var/www/html/releases
+ DEBUG [42aa8f82] 	20171203191515
+ DEBUG [42aa8f82] Finished in 0.098 seconds with exit status 0 (successful).
+ DEBUG [73954793] Running if test ! -d /var/www/html/releases; then echo "Directory does not exist '/var/www/html/releases'" 1>&2; false; fi as deploy@172.104.252.11
+ DEBUG [73954793] Command: if test ! -d /var/www/html/releases; then echo "Directory does not exist '/var/www/html/releases'" 1>&2; false; fi
+ DEBUG [73954793] Finished in 0.094 seconds with exit status 0 (successful).
+  INFO [44dba966] Running /usr/bin/env echo "Branch master (at eb18f15f839be553154fbca9d901e799fc0b430d) deployed as release 20171203191515 by marsius" >> /var/www/html/revisions.log as deploy@172.104.252.11
+ DEBUG [44dba966] Command: cd /var/www/html/releases && /usr/bin/env echo "Branch master (at eb18f15f839be553154fbca9d901e799fc0b430d) deployed as release 20171203191515 by marsius" >> /var/www/html/revisions.log
+  INFO [44dba966] Finished in 0.100 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-12-03 21:26:02 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [d735c1a8] Running /usr/bin/env mkdir -p /tmp as deploy@172.104.252.11
+ DEBUG [d735c1a8] Command: /usr/bin/env mkdir -p /tmp
+  INFO [d735c1a8] Finished in 3.171 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-rest-production-marsius.sh 0.0%
+  INFO Uploading /tmp/git-ssh-rest-production-marsius.sh 100.0%
+  INFO [97b31661] Running /usr/bin/env chmod 700 /tmp/git-ssh-rest-production-marsius.sh as deploy@172.104.252.11
+ DEBUG [97b31661] Command: /usr/bin/env chmod 700 /tmp/git-ssh-rest-production-marsius.sh
+  INFO [97b31661] Finished in 0.106 seconds with exit status 0 (successful).
+  INFO [c7ae175b] Running /usr/bin/env git ls-remote git@github.com:domioedition/rest.git HEAD as deploy@172.104.252.11
+ DEBUG [c7ae175b] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rest-production-marsius.sh" ; /usr/bin/env git ls-remote git@github.com:domioedition/rest.git HEAD )
+ DEBUG [c7ae175b] 	eb18f15f839be553154fbca9d901e799fc0b430d	HEAD
+  INFO [c7ae175b] Finished in 5.143 seconds with exit status 0 (successful).
+  INFO [73a26019] Running /usr/bin/env mkdir -p /home/deploy/apps/rest/current/public/shared /home/deploy/apps/rest/current/public/releases as deploy@172.104.252.11
+ DEBUG [73a26019] Command: /usr/bin/env mkdir -p /home/deploy/apps/rest/current/public/shared /home/deploy/apps/rest/current/public/releases
+  INFO [73a26019] Finished in 0.097 seconds with exit status 0 (successful).
+ DEBUG [727f6e06] Running [ -f /home/deploy/apps/rest/current/public/current/REVISION ] as deploy@172.104.252.11
+ DEBUG [727f6e06] Command: [ -f /home/deploy/apps/rest/current/public/current/REVISION ]
+ DEBUG [727f6e06] Finished in 0.095 seconds with exit status 1 (failed).
+ DEBUG [0c006d2a] Running [ -f /home/deploy/apps/rest/current/public/repo/HEAD ] as deploy@172.104.252.11
+ DEBUG [0c006d2a] Command: [ -f /home/deploy/apps/rest/current/public/repo/HEAD ]
+ DEBUG [0c006d2a] Finished in 0.096 seconds with exit status 1 (failed).
+ DEBUG [b4bda653] Running if test ! -d /home/deploy/apps/rest/current/public; then echo "Directory does not exist '/home/deploy/apps/rest/current/public'" 1>&2; false; fi as deploy@172.104.252.11
+ DEBUG [b4bda653] Command: if test ! -d /home/deploy/apps/rest/current/public; then echo "Directory does not exist '/home/deploy/apps/rest/current/public'" 1>&2; false; fi
+ DEBUG [b4bda653] Finished in 0.093 seconds with exit status 0 (successful).
+  INFO [e4e9b131] Running /usr/bin/env git clone --mirror git@github.com:domioedition/rest.git /home/deploy/apps/rest/current/public/repo as deploy@172.104.252.11
+ DEBUG [e4e9b131] Command: cd /home/deploy/apps/rest/current/public && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rest-production-marsius.sh" ; /usr/bin/env git clone --mirror git@github.com:domioedition/rest.git /home/deploy/apps/rest/current/public/repo )
+ DEBUG [e4e9b131] 	Cloning into bare repository '/home/deploy/apps/rest/current/public/repo'...
+  INFO [e4e9b131] Finished in 5.843 seconds with exit status 0 (successful).
+ DEBUG [d9f9be03] Running if test ! -d /home/deploy/apps/rest/current/public/repo; then echo "Directory does not exist '/home/deploy/apps/rest/current/public/repo'" 1>&2; false; fi as deploy@172.104.252.11
+ DEBUG [d9f9be03] Command: if test ! -d /home/deploy/apps/rest/current/public/repo; then echo "Directory does not exist '/home/deploy/apps/rest/current/public/repo'" 1>&2; false; fi
+ DEBUG [d9f9be03] Finished in 0.137 seconds with exit status 0 (successful).
+  INFO [44b76670] Running /usr/bin/env git remote set-url origin git@github.com:domioedition/rest.git as deploy@172.104.252.11
+ DEBUG [44b76670] Command: cd /home/deploy/apps/rest/current/public/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rest-production-marsius.sh" ; /usr/bin/env git remote set-url origin git@github.com:domioedition/rest.git )
+  INFO [44b76670] Finished in 0.097 seconds with exit status 0 (successful).
+  INFO [e4eb67ab] Running /usr/bin/env git remote update --prune as deploy@172.104.252.11
+ DEBUG [e4eb67ab] Command: cd /home/deploy/apps/rest/current/public/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rest-production-marsius.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [e4eb67ab] 	Fetching origin
+  INFO [e4eb67ab] Finished in 17.838 seconds with exit status 0 (successful).
+ DEBUG [d000f48e] Running if test ! -d /home/deploy/apps/rest/current/public/repo; then echo "Directory does not exist '/home/deploy/apps/rest/current/public/repo'" 1>&2; false; fi as deploy@172.104.252.11
+ DEBUG [d000f48e] Command: if test ! -d /home/deploy/apps/rest/current/public/repo; then echo "Directory does not exist '/home/deploy/apps/rest/current/public/repo'" 1>&2; false; fi
+ DEBUG [d000f48e] Finished in 0.133 seconds with exit status 0 (successful).
+  INFO [09c147c6] Running /usr/bin/env mkdir -p /home/deploy/apps/rest/current/public/releases/20171203192611 as deploy@172.104.252.11
+ DEBUG [09c147c6] Command: cd /home/deploy/apps/rest/current/public/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rest-production-marsius.sh" ; /usr/bin/env mkdir -p /home/deploy/apps/rest/current/public/releases/20171203192611 )
+  INFO [09c147c6] Finished in 0.102 seconds with exit status 0 (successful).
+  INFO [9d1db1f6] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/deploy/apps/rest/current/public/releases/20171203192611 as deploy@172.104.252.11
+ DEBUG [9d1db1f6] Command: cd /home/deploy/apps/rest/current/public/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rest-production-marsius.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/deploy/apps/rest/current/public/releases/20171203192611 )
+  INFO [9d1db1f6] Finished in 0.107 seconds with exit status 0 (successful).
+ DEBUG [7d06750f] Running if test ! -d /home/deploy/apps/rest/current/public/repo; then echo "Directory does not exist '/home/deploy/apps/rest/current/public/repo'" 1>&2; false; fi as deploy@172.104.252.11
+ DEBUG [7d06750f] Command: if test ! -d /home/deploy/apps/rest/current/public/repo; then echo "Directory does not exist '/home/deploy/apps/rest/current/public/repo'" 1>&2; false; fi
+ DEBUG [7d06750f] Finished in 0.095 seconds with exit status 0 (successful).
+ DEBUG [8d4da5c0] Running /usr/bin/env git rev-list --max-count=1 master as deploy@172.104.252.11
+ DEBUG [8d4da5c0] Command: cd /home/deploy/apps/rest/current/public/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rest-production-marsius.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [8d4da5c0] 	eb18f15f839be553154fbca9d901e799fc0b430d
+ DEBUG [8d4da5c0] Finished in 0.096 seconds with exit status 0 (successful).
+ DEBUG [56f88535] Running if test ! -d /home/deploy/apps/rest/current/public/releases/20171203192611; then echo "Directory does not exist '/home/deploy/apps/rest/current/public/releases/20171203192611'" 1>&2; false; fi as deploy@172.104.252.11
+ DEBUG [56f88535] Command: if test ! -d /home/deploy/apps/rest/current/public/releases/20171203192611; then echo "Directory does not exist '/home/deploy/apps/rest/current/public/releases/20171203192611'" 1>&2; false; fi
+ DEBUG [56f88535] Finished in 0.095 seconds with exit status 0 (successful).
+  INFO [61997d09] Running /usr/bin/env echo "eb18f15f839be553154fbca9d901e799fc0b430d" >> REVISION as deploy@172.104.252.11
+ DEBUG [61997d09] Command: cd /home/deploy/apps/rest/current/public/releases/20171203192611 && /usr/bin/env echo "eb18f15f839be553154fbca9d901e799fc0b430d" >> REVISION
+  INFO [61997d09] Finished in 0.098 seconds with exit status 0 (successful).
+ DEBUG [4cf98827] Running if test ! -d /home/deploy/apps/rest/current/public/releases/20171203192611; then echo "Directory does not exist '/home/deploy/apps/rest/current/public/releases/20171203192611'" 1>&2; false; fi as deploy@172.104.252.11
+ DEBUG [4cf98827] Command: if test ! -d /home/deploy/apps/rest/current/public/releases/20171203192611; then echo "Directory does not exist '/home/deploy/apps/rest/current/public/releases/20171203192611'" 1>&2; false; fi
+ DEBUG [4cf98827] Finished in 0.105 seconds with exit status 0 (successful).
+  INFO [441e657c] Running /usr/bin/env composer install --no-dev --quiet as deploy@172.104.252.11
+ DEBUG [441e657c] Command: cd /home/deploy/apps/rest/current/public/releases/20171203192611 && /usr/bin/env composer install --no-dev --quiet
+  INFO [441e657c] Finished in 1.184 seconds with exit status 0 (successful).
+  INFO [ac3c24fa] Running /usr/bin/env ln -s /home/deploy/apps/rest/current/public/releases/20171203192611 /home/deploy/apps/rest/current/public/releases/current as deploy@172.104.252.11
+ DEBUG [ac3c24fa] Command: /usr/bin/env ln -s /home/deploy/apps/rest/current/public/releases/20171203192611 /home/deploy/apps/rest/current/public/releases/current
+  INFO [ac3c24fa] Finished in 0.097 seconds with exit status 0 (successful).
+  INFO [523db3c2] Running /usr/bin/env mv /home/deploy/apps/rest/current/public/releases/current /home/deploy/apps/rest/current/public as deploy@172.104.252.11
+ DEBUG [523db3c2] Command: /usr/bin/env mv /home/deploy/apps/rest/current/public/releases/current /home/deploy/apps/rest/current/public
+  INFO [523db3c2] Finished in 0.095 seconds with exit status 0 (successful).
+ DEBUG [4a899882] Running /usr/bin/env ls -x /home/deploy/apps/rest/current/public/releases as deploy@172.104.252.11
+ DEBUG [4a899882] Command: /usr/bin/env ls -x /home/deploy/apps/rest/current/public/releases
+ DEBUG [4a899882] 	20171203192611
+ DEBUG [4a899882] Finished in 0.094 seconds with exit status 0 (successful).
+ DEBUG [0f95a07f] Running if test ! -d /home/deploy/apps/rest/current/public/releases; then echo "Directory does not exist '/home/deploy/apps/rest/current/public/releases'" 1>&2; false; fi as deploy@172.104.252.11
+ DEBUG [0f95a07f] Command: if test ! -d /home/deploy/apps/rest/current/public/releases; then echo "Directory does not exist '/home/deploy/apps/rest/current/public/releases'" 1>&2; false; fi
+ DEBUG [0f95a07f] Finished in 0.094 seconds with exit status 0 (successful).
+  INFO [b33ffc6c] Running /usr/bin/env echo "Branch master (at eb18f15f839be553154fbca9d901e799fc0b430d) deployed as release 20171203192611 by marsius" >> /home/deploy/apps/rest/current/public/revisions.log as deploy@172.104.252.11
+ DEBUG [b33ffc6c] Command: cd /home/deploy/apps/rest/current/public/releases && /usr/bin/env echo "Branch master (at eb18f15f839be553154fbca9d901e799fc0b430d) deployed as release 20171203192611 by marsius" >> /home/deploy/apps/rest/current/public/revisions.log
+  INFO [b33ffc6c] Finished in 0.155 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-12-03 21:36:52 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [5c078d77] Running /usr/bin/env mkdir -p /tmp as deploy@172.104.252.11
+ DEBUG [5c078d77] Command: /usr/bin/env mkdir -p /tmp
+  INFO [5c078d77] Finished in 0.750 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-rest-production-marsius.sh 0.0%
+  INFO Uploading /tmp/git-ssh-rest-production-marsius.sh 100.0%
+  INFO [e5a21f6a] Running /usr/bin/env chmod 700 /tmp/git-ssh-rest-production-marsius.sh as deploy@172.104.252.11
+ DEBUG [e5a21f6a] Command: /usr/bin/env chmod 700 /tmp/git-ssh-rest-production-marsius.sh
+  INFO [e5a21f6a] Finished in 0.101 seconds with exit status 0 (successful).
+  INFO [7c3c4282] Running /usr/bin/env git ls-remote git@github.com:domioedition/rest.git HEAD as deploy@172.104.252.11
+ DEBUG [7c3c4282] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rest-production-marsius.sh" ; /usr/bin/env git ls-remote git@github.com:domioedition/rest.git HEAD )
+ DEBUG [7c3c4282] 	eb18f15f839be553154fbca9d901e799fc0b430d	HEAD
+  INFO [7c3c4282] Finished in 4.847 seconds with exit status 0 (successful).
+  INFO [0a34ec61] Running /usr/bin/env mkdir -p /home/deploy/apps/rest/shared /home/deploy/apps/rest/releases as deploy@172.104.252.11
+ DEBUG [0a34ec61] Command: /usr/bin/env mkdir -p /home/deploy/apps/rest/shared /home/deploy/apps/rest/releases
+  INFO [0a34ec61] Finished in 0.143 seconds with exit status 0 (successful).
+ DEBUG [fd346541] Running [ -f /home/deploy/apps/rest/current/REVISION ] as deploy@172.104.252.11
+ DEBUG [fd346541] Command: [ -f /home/deploy/apps/rest/current/REVISION ]
+ DEBUG [fd346541] Finished in 0.096 seconds with exit status 1 (failed).
+ DEBUG [45283b3a] Running [ -f /home/deploy/apps/rest/repo/HEAD ] as deploy@172.104.252.11
+ DEBUG [45283b3a] Command: [ -f /home/deploy/apps/rest/repo/HEAD ]
+ DEBUG [45283b3a] Finished in 0.095 seconds with exit status 1 (failed).
+ DEBUG [c922cfcd] Running if test ! -d /home/deploy/apps/rest; then echo "Directory does not exist '/home/deploy/apps/rest'" 1>&2; false; fi as deploy@172.104.252.11
+ DEBUG [c922cfcd] Command: if test ! -d /home/deploy/apps/rest; then echo "Directory does not exist '/home/deploy/apps/rest'" 1>&2; false; fi
+ DEBUG [c922cfcd] Finished in 0.098 seconds with exit status 0 (successful).
+  INFO [1f26bce8] Running /usr/bin/env git clone --mirror git@github.com:domioedition/rest.git /home/deploy/apps/rest/repo as deploy@172.104.252.11
+ DEBUG [1f26bce8] Command: cd /home/deploy/apps/rest && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rest-production-marsius.sh" ; /usr/bin/env git clone --mirror git@github.com:domioedition/rest.git /home/deploy/apps/rest/repo )
+ DEBUG [1f26bce8] 	Cloning into bare repository '/home/deploy/apps/rest/repo'...
+  INFO [1f26bce8] Finished in 6.215 seconds with exit status 0 (successful).
+ DEBUG [14db1048] Running if test ! -d /home/deploy/apps/rest/repo; then echo "Directory does not exist '/home/deploy/apps/rest/repo'" 1>&2; false; fi as deploy@172.104.252.11
+ DEBUG [14db1048] Command: if test ! -d /home/deploy/apps/rest/repo; then echo "Directory does not exist '/home/deploy/apps/rest/repo'" 1>&2; false; fi
+ DEBUG [14db1048] Finished in 0.141 seconds with exit status 0 (successful).
+  INFO [13e4f475] Running /usr/bin/env git remote set-url origin git@github.com:domioedition/rest.git as deploy@172.104.252.11
+ DEBUG [13e4f475] Command: cd /home/deploy/apps/rest/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rest-production-marsius.sh" ; /usr/bin/env git remote set-url origin git@github.com:domioedition/rest.git )
+  INFO [13e4f475] Finished in 0.099 seconds with exit status 0 (successful).
+  INFO [647a6421] Running /usr/bin/env git remote update --prune as deploy@172.104.252.11
+ DEBUG [647a6421] Command: cd /home/deploy/apps/rest/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rest-production-marsius.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [647a6421] 	Fetching origin
+  INFO [647a6421] Finished in 6.987 seconds with exit status 0 (successful).
+ DEBUG [f7beaec6] Running if test ! -d /home/deploy/apps/rest/repo; then echo "Directory does not exist '/home/deploy/apps/rest/repo'" 1>&2; false; fi as deploy@172.104.252.11
+ DEBUG [f7beaec6] Command: if test ! -d /home/deploy/apps/rest/repo; then echo "Directory does not exist '/home/deploy/apps/rest/repo'" 1>&2; false; fi
+ DEBUG [f7beaec6] Finished in 0.181 seconds with exit status 0 (successful).
+  INFO [28faf584] Running /usr/bin/env mkdir -p /home/deploy/apps/rest/releases/20171203193658 as deploy@172.104.252.11
+ DEBUG [28faf584] Command: cd /home/deploy/apps/rest/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rest-production-marsius.sh" ; /usr/bin/env mkdir -p /home/deploy/apps/rest/releases/20171203193658 )
+  INFO [28faf584] Finished in 0.096 seconds with exit status 0 (successful).
+  INFO [d334a1b7] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/deploy/apps/rest/releases/20171203193658 as deploy@172.104.252.11
+ DEBUG [d334a1b7] Command: cd /home/deploy/apps/rest/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rest-production-marsius.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/deploy/apps/rest/releases/20171203193658 )
+  INFO [d334a1b7] Finished in 0.114 seconds with exit status 0 (successful).
+ DEBUG [d00f8f4e] Running if test ! -d /home/deploy/apps/rest/repo; then echo "Directory does not exist '/home/deploy/apps/rest/repo'" 1>&2; false; fi as deploy@172.104.252.11
+ DEBUG [d00f8f4e] Command: if test ! -d /home/deploy/apps/rest/repo; then echo "Directory does not exist '/home/deploy/apps/rest/repo'" 1>&2; false; fi
+ DEBUG [d00f8f4e] Finished in 0.096 seconds with exit status 0 (successful).
+ DEBUG [babd70b5] Running /usr/bin/env git rev-list --max-count=1 master as deploy@172.104.252.11
+ DEBUG [babd70b5] Command: cd /home/deploy/apps/rest/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rest-production-marsius.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [babd70b5] 	eb18f15f839be553154fbca9d901e799fc0b430d
+ DEBUG [babd70b5] Finished in 0.103 seconds with exit status 0 (successful).
+ DEBUG [3b785ac2] Running if test ! -d /home/deploy/apps/rest/releases/20171203193658; then echo "Directory does not exist '/home/deploy/apps/rest/releases/20171203193658'" 1>&2; false; fi as deploy@172.104.252.11
+ DEBUG [3b785ac2] Command: if test ! -d /home/deploy/apps/rest/releases/20171203193658; then echo "Directory does not exist '/home/deploy/apps/rest/releases/20171203193658'" 1>&2; false; fi
+ DEBUG [3b785ac2] Finished in 0.096 seconds with exit status 0 (successful).
+  INFO [ae922199] Running /usr/bin/env echo "eb18f15f839be553154fbca9d901e799fc0b430d" >> REVISION as deploy@172.104.252.11
+ DEBUG [ae922199] Command: cd /home/deploy/apps/rest/releases/20171203193658 && /usr/bin/env echo "eb18f15f839be553154fbca9d901e799fc0b430d" >> REVISION
+  INFO [ae922199] Finished in 0.093 seconds with exit status 0 (successful).
+ DEBUG [ef3786be] Running if test ! -d /home/deploy/apps/rest/releases/20171203193658; then echo "Directory does not exist '/home/deploy/apps/rest/releases/20171203193658'" 1>&2; false; fi as deploy@172.104.252.11
+ DEBUG [ef3786be] Command: if test ! -d /home/deploy/apps/rest/releases/20171203193658; then echo "Directory does not exist '/home/deploy/apps/rest/releases/20171203193658'" 1>&2; false; fi
+ DEBUG [ef3786be] Finished in 0.096 seconds with exit status 0 (successful).
+  INFO [bfa67e48] Running /usr/bin/env composer install --no-dev --quiet as deploy@172.104.252.11
+ DEBUG [bfa67e48] Command: cd /home/deploy/apps/rest/releases/20171203193658 && /usr/bin/env composer install --no-dev --quiet
+  INFO [bfa67e48] Finished in 0.685 seconds with exit status 0 (successful).
+  INFO [78cf67da] Running /usr/bin/env ln -s /home/deploy/apps/rest/releases/20171203193658 /home/deploy/apps/rest/releases/current as deploy@172.104.252.11
+ DEBUG [78cf67da] Command: /usr/bin/env ln -s /home/deploy/apps/rest/releases/20171203193658 /home/deploy/apps/rest/releases/current
+  INFO [78cf67da] Finished in 0.104 seconds with exit status 0 (successful).
+  INFO [e42522e0] Running /usr/bin/env mv /home/deploy/apps/rest/releases/current /home/deploy/apps/rest as deploy@172.104.252.11
+ DEBUG [e42522e0] Command: /usr/bin/env mv /home/deploy/apps/rest/releases/current /home/deploy/apps/rest
+ DEBUG [e42522e0] 	mv: 
+ DEBUG [e42522e0] 	cannot overwrite directory '/home/deploy/apps/rest/current' with non-directory
+ DEBUG [e42522e0] 	
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-12-03 21:37:43 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [4d87e2af] Running /usr/bin/env mkdir -p /tmp as deploy@172.104.252.11
+ DEBUG [4d87e2af] Command: /usr/bin/env mkdir -p /tmp
+  INFO [4d87e2af] Finished in 0.785 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-rest-production-marsius.sh 0.0%
+  INFO Uploading /tmp/git-ssh-rest-production-marsius.sh 100.0%
+  INFO [3b9ddac9] Running /usr/bin/env chmod 700 /tmp/git-ssh-rest-production-marsius.sh as deploy@172.104.252.11
+ DEBUG [3b9ddac9] Command: /usr/bin/env chmod 700 /tmp/git-ssh-rest-production-marsius.sh
+  INFO [3b9ddac9] Finished in 0.099 seconds with exit status 0 (successful).
+  INFO [6694bdff] Running /usr/bin/env git ls-remote git@github.com:domioedition/rest.git HEAD as deploy@172.104.252.11
+ DEBUG [6694bdff] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rest-production-marsius.sh" ; /usr/bin/env git ls-remote git@github.com:domioedition/rest.git HEAD )
+ DEBUG [6694bdff] 	eb18f15f839be553154fbca9d901e799fc0b430d	HEAD
+  INFO [6694bdff] Finished in 7.987 seconds with exit status 0 (successful).
+  INFO [a65a18cb] Running /usr/bin/env mkdir -p /home/deploy/apps/rest/shared /home/deploy/apps/rest/releases as deploy@172.104.252.11
+ DEBUG [a65a18cb] Command: /usr/bin/env mkdir -p /home/deploy/apps/rest/shared /home/deploy/apps/rest/releases
+  INFO [a65a18cb] Finished in 0.103 seconds with exit status 0 (successful).
+ DEBUG [3645fba9] Running [ -f /home/deploy/apps/rest/current/REVISION ] as deploy@172.104.252.11
+ DEBUG [3645fba9] Command: [ -f /home/deploy/apps/rest/current/REVISION ]
+ DEBUG [3645fba9] Finished in 0.098 seconds with exit status 1 (failed).
+ DEBUG [80c36c94] Running [ -f /home/deploy/apps/rest/repo/HEAD ] as deploy@172.104.252.11
+ DEBUG [80c36c94] Command: [ -f /home/deploy/apps/rest/repo/HEAD ]
+ DEBUG [80c36c94] Finished in 0.101 seconds with exit status 1 (failed).
+ DEBUG [b797b34a] Running if test ! -d /home/deploy/apps/rest; then echo "Directory does not exist '/home/deploy/apps/rest'" 1>&2; false; fi as deploy@172.104.252.11
+ DEBUG [b797b34a] Command: if test ! -d /home/deploy/apps/rest; then echo "Directory does not exist '/home/deploy/apps/rest'" 1>&2; false; fi
+ DEBUG [b797b34a] Finished in 0.101 seconds with exit status 0 (successful).
+  INFO [a3966b29] Running /usr/bin/env git clone --mirror git@github.com:domioedition/rest.git /home/deploy/apps/rest/repo as deploy@172.104.252.11
+ DEBUG [a3966b29] Command: cd /home/deploy/apps/rest && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rest-production-marsius.sh" ; /usr/bin/env git clone --mirror git@github.com:domioedition/rest.git /home/deploy/apps/rest/repo )
+ DEBUG [a3966b29] 	Cloning into bare repository '/home/deploy/apps/rest/repo'...
+  INFO [a3966b29] Finished in 20.360 seconds with exit status 0 (successful).
+ DEBUG [20cdf182] Running if test ! -d /home/deploy/apps/rest/repo; then echo "Directory does not exist '/home/deploy/apps/rest/repo'" 1>&2; false; fi as deploy@172.104.252.11
+ DEBUG [20cdf182] Command: if test ! -d /home/deploy/apps/rest/repo; then echo "Directory does not exist '/home/deploy/apps/rest/repo'" 1>&2; false; fi
+ DEBUG [20cdf182] Finished in 0.153 seconds with exit status 0 (successful).
+  INFO [898ff9e1] Running /usr/bin/env git remote set-url origin git@github.com:domioedition/rest.git as deploy@172.104.252.11
+ DEBUG [898ff9e1] Command: cd /home/deploy/apps/rest/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rest-production-marsius.sh" ; /usr/bin/env git remote set-url origin git@github.com:domioedition/rest.git )
+  INFO [898ff9e1] Finished in 0.105 seconds with exit status 0 (successful).
+  INFO [0f483521] Running /usr/bin/env git remote update --prune as deploy@172.104.252.11
+ DEBUG [0f483521] Command: cd /home/deploy/apps/rest/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rest-production-marsius.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [0f483521] 	Fetching origin
+  INFO [0f483521] Finished in 4.053 seconds with exit status 0 (successful).
+ DEBUG [f5020785] Running if test ! -d /home/deploy/apps/rest/repo; then echo "Directory does not exist '/home/deploy/apps/rest/repo'" 1>&2; false; fi as deploy@172.104.252.11
+ DEBUG [f5020785] Command: if test ! -d /home/deploy/apps/rest/repo; then echo "Directory does not exist '/home/deploy/apps/rest/repo'" 1>&2; false; fi
+ DEBUG [f5020785] Finished in 0.135 seconds with exit status 0 (successful).
+  INFO [802390ba] Running /usr/bin/env mkdir -p /home/deploy/apps/rest/releases/20171203193752 as deploy@172.104.252.11
+ DEBUG [802390ba] Command: cd /home/deploy/apps/rest/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rest-production-marsius.sh" ; /usr/bin/env mkdir -p /home/deploy/apps/rest/releases/20171203193752 )
+  INFO [802390ba] Finished in 0.105 seconds with exit status 0 (successful).
+  INFO [9e6bb9ce] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/deploy/apps/rest/releases/20171203193752 as deploy@172.104.252.11
+ DEBUG [9e6bb9ce] Command: cd /home/deploy/apps/rest/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rest-production-marsius.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/deploy/apps/rest/releases/20171203193752 )
+  INFO [9e6bb9ce] Finished in 0.119 seconds with exit status 0 (successful).
+ DEBUG [d12d6931] Running if test ! -d /home/deploy/apps/rest/repo; then echo "Directory does not exist '/home/deploy/apps/rest/repo'" 1>&2; false; fi as deploy@172.104.252.11
+ DEBUG [d12d6931] Command: if test ! -d /home/deploy/apps/rest/repo; then echo "Directory does not exist '/home/deploy/apps/rest/repo'" 1>&2; false; fi
+ DEBUG [d12d6931] Finished in 0.098 seconds with exit status 0 (successful).
+ DEBUG [6fb68de7] Running /usr/bin/env git rev-list --max-count=1 master as deploy@172.104.252.11
+ DEBUG [6fb68de7] Command: cd /home/deploy/apps/rest/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rest-production-marsius.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [6fb68de7] 	eb18f15f839be553154fbca9d901e799fc0b430d
+ DEBUG [6fb68de7] Finished in 0.107 seconds with exit status 0 (successful).
+ DEBUG [547e8d3b] Running if test ! -d /home/deploy/apps/rest/releases/20171203193752; then echo "Directory does not exist '/home/deploy/apps/rest/releases/20171203193752'" 1>&2; false; fi as deploy@172.104.252.11
+ DEBUG [547e8d3b] Command: if test ! -d /home/deploy/apps/rest/releases/20171203193752; then echo "Directory does not exist '/home/deploy/apps/rest/releases/20171203193752'" 1>&2; false; fi
+ DEBUG [547e8d3b] Finished in 0.101 seconds with exit status 0 (successful).
+  INFO [f5c7b1fe] Running /usr/bin/env echo "eb18f15f839be553154fbca9d901e799fc0b430d" >> REVISION as deploy@172.104.252.11
+ DEBUG [f5c7b1fe] Command: cd /home/deploy/apps/rest/releases/20171203193752 && /usr/bin/env echo "eb18f15f839be553154fbca9d901e799fc0b430d" >> REVISION
+  INFO [f5c7b1fe] Finished in 0.099 seconds with exit status 0 (successful).
+ DEBUG [1dd7bd00] Running if test ! -d /home/deploy/apps/rest/releases/20171203193752; then echo "Directory does not exist '/home/deploy/apps/rest/releases/20171203193752'" 1>&2; false; fi as deploy@172.104.252.11
+ DEBUG [1dd7bd00] Command: if test ! -d /home/deploy/apps/rest/releases/20171203193752; then echo "Directory does not exist '/home/deploy/apps/rest/releases/20171203193752'" 1>&2; false; fi
+ DEBUG [1dd7bd00] Finished in 0.093 seconds with exit status 0 (successful).
+  INFO [fba36671] Running /usr/bin/env composer install --no-dev --quiet as deploy@172.104.252.11
+ DEBUG [fba36671] Command: cd /home/deploy/apps/rest/releases/20171203193752 && /usr/bin/env composer install --no-dev --quiet
+  INFO [fba36671] Finished in 2.566 seconds with exit status 0 (successful).
+  INFO [9b4ae785] Running /usr/bin/env ln -s /home/deploy/apps/rest/releases/20171203193752 /home/deploy/apps/rest/releases/current as deploy@172.104.252.11
+ DEBUG [9b4ae785] Command: /usr/bin/env ln -s /home/deploy/apps/rest/releases/20171203193752 /home/deploy/apps/rest/releases/current
+  INFO [9b4ae785] Finished in 0.098 seconds with exit status 0 (successful).
+  INFO [8aaab1ad] Running /usr/bin/env mv /home/deploy/apps/rest/releases/current /home/deploy/apps/rest as deploy@172.104.252.11
+ DEBUG [8aaab1ad] Command: /usr/bin/env mv /home/deploy/apps/rest/releases/current /home/deploy/apps/rest
+  INFO [8aaab1ad] Finished in 0.093 seconds with exit status 0 (successful).
+ DEBUG [9812e30f] Running /usr/bin/env ls -x /home/deploy/apps/rest/releases as deploy@172.104.252.11
+ DEBUG [9812e30f] Command: /usr/bin/env ls -x /home/deploy/apps/rest/releases
+ DEBUG [9812e30f] 	20171203193752
+ DEBUG [9812e30f] Finished in 0.093 seconds with exit status 0 (successful).
+ DEBUG [4ada39f0] Running if test ! -d /home/deploy/apps/rest/releases; then echo "Directory does not exist '/home/deploy/apps/rest/releases'" 1>&2; false; fi as deploy@172.104.252.11
+ DEBUG [4ada39f0] Command: if test ! -d /home/deploy/apps/rest/releases; then echo "Directory does not exist '/home/deploy/apps/rest/releases'" 1>&2; false; fi
+ DEBUG [4ada39f0] Finished in 0.095 seconds with exit status 0 (successful).
+  INFO [ee7cc3b7] Running /usr/bin/env echo "Branch master (at eb18f15f839be553154fbca9d901e799fc0b430d) deployed as release 20171203193752 by marsius" >> /home/deploy/apps/rest/revisions.log as deploy@172.104.252.11
+ DEBUG [ee7cc3b7] Command: cd /home/deploy/apps/rest/releases && /usr/bin/env echo "Branch master (at eb18f15f839be553154fbca9d901e799fc0b430d) deployed as release 20171203193752 by marsius" >> /home/deploy/apps/rest/revisions.log
+  INFO [ee7cc3b7] Finished in 0.097 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-12-03 21:49:41 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [244371a4] Running /usr/bin/env mkdir -p /tmp as deploy@172.104.252.11
+ DEBUG [244371a4] Command: /usr/bin/env mkdir -p /tmp
+  INFO [244371a4] Finished in 0.768 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-rest-production-marsius.sh 0.0%
+  INFO Uploading /tmp/git-ssh-rest-production-marsius.sh 100.0%
+  INFO [779fda41] Running /usr/bin/env chmod 700 /tmp/git-ssh-rest-production-marsius.sh as deploy@172.104.252.11
+ DEBUG [779fda41] Command: /usr/bin/env chmod 700 /tmp/git-ssh-rest-production-marsius.sh
+  INFO [779fda41] Finished in 0.094 seconds with exit status 0 (successful).
+  INFO [861dda4e] Running /usr/bin/env git ls-remote git@github.com:domioedition/rest.git HEAD as deploy@172.104.252.11
+ DEBUG [861dda4e] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rest-production-marsius.sh" ; /usr/bin/env git ls-remote git@github.com:domioedition/rest.git HEAD )
+ DEBUG [861dda4e] 	7268c2301a870163fe36b227fc26a33832c7b6d9	HEAD
+  INFO [861dda4e] Finished in 10.045 seconds with exit status 0 (successful).
+  INFO [18c0f80c] Running /usr/bin/env mkdir -p /home/deploy/apps/rest/shared /home/deploy/apps/rest/releases as deploy@172.104.252.11
+ DEBUG [18c0f80c] Command: /usr/bin/env mkdir -p /home/deploy/apps/rest/shared /home/deploy/apps/rest/releases
+  INFO [18c0f80c] Finished in 0.138 seconds with exit status 0 (successful).
+ DEBUG [0630c0d6] Running [ -f /home/deploy/apps/rest/current/REVISION ] as deploy@172.104.252.11
+ DEBUG [0630c0d6] Command: [ -f /home/deploy/apps/rest/current/REVISION ]
+ DEBUG [0630c0d6] Finished in 0.093 seconds with exit status 0 (successful).
+ DEBUG [7de1dd9f] Running /usr/bin/env cat /home/deploy/apps/rest/current/REVISION 2>/dev/null as deploy@172.104.252.11
+ DEBUG [7de1dd9f] Command: /usr/bin/env cat /home/deploy/apps/rest/current/REVISION 2>/dev/null
+ DEBUG [7de1dd9f] 	eb18f15f839be553154fbca9d901e799fc0b430d
+ DEBUG [7de1dd9f] Finished in 0.094 seconds with exit status 0 (successful).
+ DEBUG [5b822d85] Running [ -f /home/deploy/apps/rest/repo/HEAD ] as deploy@172.104.252.11
+ DEBUG [5b822d85] Command: [ -f /home/deploy/apps/rest/repo/HEAD ]
+ DEBUG [5b822d85] Finished in 0.097 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /home/deploy/apps/rest/repo
+ DEBUG [a609345b] Running if test ! -d /home/deploy/apps/rest/repo; then echo "Directory does not exist '/home/deploy/apps/rest/repo'" 1>&2; false; fi as deploy@172.104.252.11
+ DEBUG [a609345b] Command: if test ! -d /home/deploy/apps/rest/repo; then echo "Directory does not exist '/home/deploy/apps/rest/repo'" 1>&2; false; fi
+ DEBUG [a609345b] Finished in 0.101 seconds with exit status 0 (successful).
+  INFO [a698036a] Running /usr/bin/env git remote set-url origin git@github.com:domioedition/rest.git as deploy@172.104.252.11
+ DEBUG [a698036a] Command: cd /home/deploy/apps/rest/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rest-production-marsius.sh" ; /usr/bin/env git remote set-url origin git@github.com:domioedition/rest.git )
+  INFO [a698036a] Finished in 0.095 seconds with exit status 0 (successful).
+  INFO [e7bd11d7] Running /usr/bin/env git remote update --prune as deploy@172.104.252.11
+ DEBUG [e7bd11d7] Command: cd /home/deploy/apps/rest/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rest-production-marsius.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [e7bd11d7] 	Fetching origin
+ DEBUG [e7bd11d7] 	From github.com:domioedition/rest
+   eb18f15..7268c23  master     -> master
+  INFO [e7bd11d7] Finished in 2.876 seconds with exit status 0 (successful).
+ DEBUG [0ebd67e8] Running if test ! -d /home/deploy/apps/rest/repo; then echo "Directory does not exist '/home/deploy/apps/rest/repo'" 1>&2; false; fi as deploy@172.104.252.11
+ DEBUG [0ebd67e8] Command: if test ! -d /home/deploy/apps/rest/repo; then echo "Directory does not exist '/home/deploy/apps/rest/repo'" 1>&2; false; fi
+ DEBUG [0ebd67e8] Finished in 0.132 seconds with exit status 0 (successful).
+  INFO [8b301195] Running /usr/bin/env mkdir -p /home/deploy/apps/rest/releases/20171203194952 as deploy@172.104.252.11
+ DEBUG [8b301195] Command: cd /home/deploy/apps/rest/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rest-production-marsius.sh" ; /usr/bin/env mkdir -p /home/deploy/apps/rest/releases/20171203194952 )
+  INFO [8b301195] Finished in 0.106 seconds with exit status 0 (successful).
+  INFO [4e96710a] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/deploy/apps/rest/releases/20171203194952 as deploy@172.104.252.11
+ DEBUG [4e96710a] Command: cd /home/deploy/apps/rest/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rest-production-marsius.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/deploy/apps/rest/releases/20171203194952 )
+  INFO [4e96710a] Finished in 0.148 seconds with exit status 0 (successful).
+ DEBUG [c74b9e87] Running if test ! -d /home/deploy/apps/rest/repo; then echo "Directory does not exist '/home/deploy/apps/rest/repo'" 1>&2; false; fi as deploy@172.104.252.11
+ DEBUG [c74b9e87] Command: if test ! -d /home/deploy/apps/rest/repo; then echo "Directory does not exist '/home/deploy/apps/rest/repo'" 1>&2; false; fi
+ DEBUG [c74b9e87] Finished in 0.142 seconds with exit status 0 (successful).
+ DEBUG [d29c5754] Running /usr/bin/env git rev-list --max-count=1 master as deploy@172.104.252.11
+ DEBUG [d29c5754] Command: cd /home/deploy/apps/rest/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rest-production-marsius.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [d29c5754] 	7268c2301a870163fe36b227fc26a33832c7b6d9
+ DEBUG [d29c5754] Finished in 0.149 seconds with exit status 0 (successful).
+ DEBUG [8df7815a] Running if test ! -d /home/deploy/apps/rest/releases/20171203194952; then echo "Directory does not exist '/home/deploy/apps/rest/releases/20171203194952'" 1>&2; false; fi as deploy@172.104.252.11
+ DEBUG [8df7815a] Command: if test ! -d /home/deploy/apps/rest/releases/20171203194952; then echo "Directory does not exist '/home/deploy/apps/rest/releases/20171203194952'" 1>&2; false; fi
+ DEBUG [8df7815a] Finished in 0.139 seconds with exit status 0 (successful).
+  INFO [e1f9c07e] Running /usr/bin/env echo "7268c2301a870163fe36b227fc26a33832c7b6d9" >> REVISION as deploy@172.104.252.11
+ DEBUG [e1f9c07e] Command: cd /home/deploy/apps/rest/releases/20171203194952 && /usr/bin/env echo "7268c2301a870163fe36b227fc26a33832c7b6d9" >> REVISION
+  INFO [e1f9c07e] Finished in 0.130 seconds with exit status 0 (successful).
+ DEBUG [bdd73fd1] Running if test ! -d /home/deploy/apps/rest/releases/20171203194952; then echo "Directory does not exist '/home/deploy/apps/rest/releases/20171203194952'" 1>&2; false; fi as deploy@172.104.252.11
+ DEBUG [bdd73fd1] Command: if test ! -d /home/deploy/apps/rest/releases/20171203194952; then echo "Directory does not exist '/home/deploy/apps/rest/releases/20171203194952'" 1>&2; false; fi
+ DEBUG [bdd73fd1] Finished in 0.110 seconds with exit status 0 (successful).
+  INFO [804b9d73] Running /usr/bin/env composer install --no-dev --quiet as deploy@172.104.252.11
+ DEBUG [804b9d73] Command: cd /home/deploy/apps/rest/releases/20171203194952 && /usr/bin/env composer install --no-dev --quiet
+  INFO [804b9d73] Finished in 19.521 seconds with exit status 0 (successful).
+  INFO [bbd32f9e] Running /usr/bin/env ln -s /home/deploy/apps/rest/releases/20171203194952 /home/deploy/apps/rest/releases/current as deploy@172.104.252.11
+ DEBUG [bbd32f9e] Command: /usr/bin/env ln -s /home/deploy/apps/rest/releases/20171203194952 /home/deploy/apps/rest/releases/current
+  INFO [bbd32f9e] Finished in 0.221 seconds with exit status 0 (successful).
+  INFO [ed52cb22] Running /usr/bin/env mv /home/deploy/apps/rest/releases/current /home/deploy/apps/rest as deploy@172.104.252.11
+ DEBUG [ed52cb22] Command: /usr/bin/env mv /home/deploy/apps/rest/releases/current /home/deploy/apps/rest
+  INFO [ed52cb22] Finished in 0.138 seconds with exit status 0 (successful).
+ DEBUG [5389955b] Running /usr/bin/env ls -x /home/deploy/apps/rest/releases as deploy@172.104.252.11
+ DEBUG [5389955b] Command: /usr/bin/env ls -x /home/deploy/apps/rest/releases
+ DEBUG [5389955b] 	20171203193752	20171203194952
+ DEBUG [5389955b] Finished in 0.097 seconds with exit status 0 (successful).
+ DEBUG [b7fba97d] Running if test ! -d /home/deploy/apps/rest/releases; then echo "Directory does not exist '/home/deploy/apps/rest/releases'" 1>&2; false; fi as deploy@172.104.252.11
+ DEBUG [b7fba97d] Command: if test ! -d /home/deploy/apps/rest/releases; then echo "Directory does not exist '/home/deploy/apps/rest/releases'" 1>&2; false; fi
+ DEBUG [b7fba97d] Finished in 0.098 seconds with exit status 0 (successful).
+  INFO [13a1bda2] Running /usr/bin/env echo "Branch master (at 7268c2301a870163fe36b227fc26a33832c7b6d9) deployed as release 20171203194952 by marsius" >> /home/deploy/apps/rest/revisions.log as deploy@172.104.252.11
+ DEBUG [13a1bda2] Command: cd /home/deploy/apps/rest/releases && /usr/bin/env echo "Branch master (at 7268c2301a870163fe36b227fc26a33832c7b6d9) deployed as release 20171203194952 by marsius" >> /home/deploy/apps/rest/revisions.log
+  INFO [13a1bda2] Finished in 0.099 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-12-03 22:01:20 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [8261f4b3] Running /usr/bin/env mkdir -p /tmp as deploy@172.104.252.11
+ DEBUG [8261f4b3] Command: /usr/bin/env mkdir -p /tmp
+  INFO [8261f4b3] Finished in 0.781 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-rest-production-marsius.sh 0.0%
+  INFO Uploading /tmp/git-ssh-rest-production-marsius.sh 100.0%
+  INFO [8956132b] Running /usr/bin/env chmod 700 /tmp/git-ssh-rest-production-marsius.sh as deploy@172.104.252.11
+ DEBUG [8956132b] Command: /usr/bin/env chmod 700 /tmp/git-ssh-rest-production-marsius.sh
+  INFO [8956132b] Finished in 0.102 seconds with exit status 0 (successful).
+  INFO [4307f888] Running /usr/bin/env git ls-remote git@github.com:domioedition/rest.git HEAD as deploy@172.104.252.11
+ DEBUG [4307f888] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rest-production-marsius.sh" ; /usr/bin/env git ls-remote git@github.com:domioedition/rest.git HEAD )
+ DEBUG [4307f888] 	da66a18b2cab0b5917cca080e76b52cb4626aa07	HEAD
+  INFO [4307f888] Finished in 1.979 seconds with exit status 0 (successful).
+  INFO [7e8ec054] Running /usr/bin/env mkdir -p /home/deploy/apps/rest/shared /home/deploy/apps/rest/releases as deploy@172.104.252.11
+ DEBUG [7e8ec054] Command: /usr/bin/env mkdir -p /home/deploy/apps/rest/shared /home/deploy/apps/rest/releases
+  INFO [7e8ec054] Finished in 0.115 seconds with exit status 0 (successful).
+ DEBUG [270b9bad] Running [ -f /home/deploy/apps/rest/current/REVISION ] as deploy@172.104.252.11
+ DEBUG [270b9bad] Command: [ -f /home/deploy/apps/rest/current/REVISION ]
+ DEBUG [270b9bad] Finished in 0.110 seconds with exit status 1 (failed).
+ DEBUG [6e75749f] Running [ -f /home/deploy/apps/rest/repo/HEAD ] as deploy@172.104.252.11
+ DEBUG [6e75749f] Command: [ -f /home/deploy/apps/rest/repo/HEAD ]
+ DEBUG [6e75749f] Finished in 0.103 seconds with exit status 1 (failed).
+ DEBUG [9b2222c2] Running if test ! -d /home/deploy/apps/rest; then echo "Directory does not exist '/home/deploy/apps/rest'" 1>&2; false; fi as deploy@172.104.252.11
+ DEBUG [9b2222c2] Command: if test ! -d /home/deploy/apps/rest; then echo "Directory does not exist '/home/deploy/apps/rest'" 1>&2; false; fi
+ DEBUG [9b2222c2] Finished in 0.134 seconds with exit status 0 (successful).
+  INFO [d0c46061] Running /usr/bin/env git clone --mirror git@github.com:domioedition/rest.git /home/deploy/apps/rest/repo as deploy@172.104.252.11
+ DEBUG [d0c46061] Command: cd /home/deploy/apps/rest && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rest-production-marsius.sh" ; /usr/bin/env git clone --mirror git@github.com:domioedition/rest.git /home/deploy/apps/rest/repo )
+ DEBUG [d0c46061] 	Cloning into bare repository '/home/deploy/apps/rest/repo'...
+  INFO [d0c46061] Finished in 2.988 seconds with exit status 0 (successful).
+ DEBUG [bc72517a] Running if test ! -d /home/deploy/apps/rest/repo; then echo "Directory does not exist '/home/deploy/apps/rest/repo'" 1>&2; false; fi as deploy@172.104.252.11
+ DEBUG [bc72517a] Command: if test ! -d /home/deploy/apps/rest/repo; then echo "Directory does not exist '/home/deploy/apps/rest/repo'" 1>&2; false; fi
+ DEBUG [bc72517a] Finished in 0.140 seconds with exit status 0 (successful).
+  INFO [64f99332] Running /usr/bin/env git remote set-url origin git@github.com:domioedition/rest.git as deploy@172.104.252.11
+ DEBUG [64f99332] Command: cd /home/deploy/apps/rest/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rest-production-marsius.sh" ; /usr/bin/env git remote set-url origin git@github.com:domioedition/rest.git )
+  INFO [64f99332] Finished in 0.110 seconds with exit status 0 (successful).
+  INFO [fd38f7b2] Running /usr/bin/env git remote update --prune as deploy@172.104.252.11
+ DEBUG [fd38f7b2] Command: cd /home/deploy/apps/rest/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rest-production-marsius.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [fd38f7b2] 	Fetching origin
+  INFO [fd38f7b2] Finished in 3.364 seconds with exit status 0 (successful).
+ DEBUG [de246bab] Running if test ! -d /home/deploy/apps/rest/repo; then echo "Directory does not exist '/home/deploy/apps/rest/repo'" 1>&2; false; fi as deploy@172.104.252.11
+ DEBUG [de246bab] Command: if test ! -d /home/deploy/apps/rest/repo; then echo "Directory does not exist '/home/deploy/apps/rest/repo'" 1>&2; false; fi
+ DEBUG [de246bab] Finished in 0.146 seconds with exit status 0 (successful).
+  INFO [bb152a96] Running /usr/bin/env mkdir -p /home/deploy/apps/rest/releases/20171203200123 as deploy@172.104.252.11
+ DEBUG [bb152a96] Command: cd /home/deploy/apps/rest/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rest-production-marsius.sh" ; /usr/bin/env mkdir -p /home/deploy/apps/rest/releases/20171203200123 )
+  INFO [bb152a96] Finished in 0.305 seconds with exit status 0 (successful).
+  INFO [c8dc6542] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/deploy/apps/rest/releases/20171203200123 as deploy@172.104.252.11
+ DEBUG [c8dc6542] Command: cd /home/deploy/apps/rest/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rest-production-marsius.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/deploy/apps/rest/releases/20171203200123 )
+  INFO [c8dc6542] Finished in 0.304 seconds with exit status 0 (successful).
+ DEBUG [b2378207] Running if test ! -d /home/deploy/apps/rest/repo; then echo "Directory does not exist '/home/deploy/apps/rest/repo'" 1>&2; false; fi as deploy@172.104.252.11
+ DEBUG [b2378207] Command: if test ! -d /home/deploy/apps/rest/repo; then echo "Directory does not exist '/home/deploy/apps/rest/repo'" 1>&2; false; fi
+ DEBUG [b2378207] Finished in 0.307 seconds with exit status 0 (successful).
+ DEBUG [56bc7ba1] Running /usr/bin/env git rev-list --max-count=1 master as deploy@172.104.252.11
+ DEBUG [56bc7ba1] Command: cd /home/deploy/apps/rest/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rest-production-marsius.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [56bc7ba1] 	da66a18b2cab0b5917cca080e76b52cb4626aa07
+ DEBUG [56bc7ba1] Finished in 0.305 seconds with exit status 0 (successful).
+ DEBUG [c61f63d1] Running if test ! -d /home/deploy/apps/rest/releases/20171203200123; then echo "Directory does not exist '/home/deploy/apps/rest/releases/20171203200123'" 1>&2; false; fi as deploy@172.104.252.11
+ DEBUG [c61f63d1] Command: if test ! -d /home/deploy/apps/rest/releases/20171203200123; then echo "Directory does not exist '/home/deploy/apps/rest/releases/20171203200123'" 1>&2; false; fi
+ DEBUG [c61f63d1] Finished in 0.307 seconds with exit status 0 (successful).
+  INFO [2ae04a77] Running /usr/bin/env echo "da66a18b2cab0b5917cca080e76b52cb4626aa07" >> REVISION as deploy@172.104.252.11
+ DEBUG [2ae04a77] Command: cd /home/deploy/apps/rest/releases/20171203200123 && /usr/bin/env echo "da66a18b2cab0b5917cca080e76b52cb4626aa07" >> REVISION
+  INFO [2ae04a77] Finished in 0.225 seconds with exit status 0 (successful).
+ DEBUG [6dba0b02] Running if test ! -d /home/deploy/apps/rest/releases/20171203200123; then echo "Directory does not exist '/home/deploy/apps/rest/releases/20171203200123'" 1>&2; false; fi as deploy@172.104.252.11
+ DEBUG [6dba0b02] Command: if test ! -d /home/deploy/apps/rest/releases/20171203200123; then echo "Directory does not exist '/home/deploy/apps/rest/releases/20171203200123'" 1>&2; false; fi
+ DEBUG [6dba0b02] Finished in 0.131 seconds with exit status 0 (successful).
+  INFO [0d084e66] Running /usr/bin/env composer install --no-dev --quiet as deploy@172.104.252.11
+ DEBUG [0d084e66] Command: cd /home/deploy/apps/rest/releases/20171203200123 && /usr/bin/env composer install --no-dev --quiet
+  INFO [0d084e66] Finished in 3.505 seconds with exit status 0 (successful).
+  INFO [ebef4221] Running /usr/bin/env ln -s /home/deploy/apps/rest/releases/20171203200123 /home/deploy/apps/rest/releases/current as deploy@172.104.252.11
+ DEBUG [ebef4221] Command: /usr/bin/env ln -s /home/deploy/apps/rest/releases/20171203200123 /home/deploy/apps/rest/releases/current
+  INFO [ebef4221] Finished in 0.097 seconds with exit status 0 (successful).
+  INFO [9cc881a5] Running /usr/bin/env mv /home/deploy/apps/rest/releases/current /home/deploy/apps/rest as deploy@172.104.252.11
+ DEBUG [9cc881a5] Command: /usr/bin/env mv /home/deploy/apps/rest/releases/current /home/deploy/apps/rest
+  INFO [9cc881a5] Finished in 0.098 seconds with exit status 0 (successful).
+ DEBUG [de460700] Running /usr/bin/env ls -x /home/deploy/apps/rest/releases as deploy@172.104.252.11
+ DEBUG [de460700] Command: /usr/bin/env ls -x /home/deploy/apps/rest/releases
+ DEBUG [de460700] 	20171203200123
+ DEBUG [de460700] Finished in 0.105 seconds with exit status 0 (successful).
+ DEBUG [dfeb4849] Running if test ! -d /home/deploy/apps/rest/releases; then echo "Directory does not exist '/home/deploy/apps/rest/releases'" 1>&2; false; fi as deploy@172.104.252.11
+ DEBUG [dfeb4849] Command: if test ! -d /home/deploy/apps/rest/releases; then echo "Directory does not exist '/home/deploy/apps/rest/releases'" 1>&2; false; fi
+ DEBUG [dfeb4849] Finished in 0.103 seconds with exit status 0 (successful).
+  INFO [4da01e4f] Running /usr/bin/env echo "Branch master (at da66a18b2cab0b5917cca080e76b52cb4626aa07) deployed as release 20171203200123 by marsius" >> /home/deploy/apps/rest/revisions.log as deploy@172.104.252.11
+ DEBUG [4da01e4f] Command: cd /home/deploy/apps/rest/releases && /usr/bin/env echo "Branch master (at da66a18b2cab0b5917cca080e76b52cb4626aa07) deployed as release 20171203200123 by marsius" >> /home/deploy/apps/rest/revisions.log
+  INFO [4da01e4f] Finished in 0.095 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-12-03 22:43:05 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [6bed2546] Running /usr/bin/env mkdir -p /tmp as deploy@172.104.252.11
+ DEBUG [6bed2546] Command: /usr/bin/env mkdir -p /tmp
+  INFO [6bed2546] Finished in 0.777 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-rest-production-marsius.sh 0.0%
+  INFO Uploading /tmp/git-ssh-rest-production-marsius.sh 100.0%
+  INFO [83c8c34b] Running /usr/bin/env chmod 700 /tmp/git-ssh-rest-production-marsius.sh as deploy@172.104.252.11
+ DEBUG [83c8c34b] Command: /usr/bin/env chmod 700 /tmp/git-ssh-rest-production-marsius.sh
+  INFO [83c8c34b] Finished in 0.098 seconds with exit status 0 (successful).
+  INFO [95ee9d76] Running /usr/bin/env git ls-remote git@github.com:domioedition/rest.git HEAD as deploy@172.104.252.11
+ DEBUG [95ee9d76] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rest-production-marsius.sh" ; /usr/bin/env git ls-remote git@github.com:domioedition/rest.git HEAD )
+ DEBUG [95ee9d76] 	da66a18b2cab0b5917cca080e76b52cb4626aa07	HEAD
+  INFO [95ee9d76] Finished in 5.288 seconds with exit status 0 (successful).
+  INFO [a0543d80] Running /usr/bin/env mkdir -p /home/deploy/apps/rest/shared /home/deploy/apps/rest/releases as deploy@172.104.252.11
+ DEBUG [a0543d80] Command: /usr/bin/env mkdir -p /home/deploy/apps/rest/shared /home/deploy/apps/rest/releases
+  INFO [a0543d80] Finished in 0.159 seconds with exit status 0 (successful).
+ DEBUG [684668da] Running [ -f /home/deploy/apps/rest/current/REVISION ] as deploy@172.104.252.11
+ DEBUG [684668da] Command: [ -f /home/deploy/apps/rest/current/REVISION ]
+ DEBUG [684668da] Finished in 0.110 seconds with exit status 1 (failed).
+ DEBUG [9d7e6fdb] Running [ -f /home/deploy/apps/rest/repo/HEAD ] as deploy@172.104.252.11
+ DEBUG [9d7e6fdb] Command: [ -f /home/deploy/apps/rest/repo/HEAD ]
+ DEBUG [9d7e6fdb] Finished in 0.119 seconds with exit status 1 (failed).
+ DEBUG [631188e5] Running if test ! -d /home/deploy/apps/rest; then echo "Directory does not exist '/home/deploy/apps/rest'" 1>&2; false; fi as deploy@172.104.252.11
+ DEBUG [631188e5] Command: if test ! -d /home/deploy/apps/rest; then echo "Directory does not exist '/home/deploy/apps/rest'" 1>&2; false; fi
+ DEBUG [631188e5] Finished in 0.100 seconds with exit status 0 (successful).
+  INFO [9b34cb3e] Running /usr/bin/env git clone --mirror git@github.com:domioedition/rest.git /home/deploy/apps/rest/repo as deploy@172.104.252.11
+ DEBUG [9b34cb3e] Command: cd /home/deploy/apps/rest && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rest-production-marsius.sh" ; /usr/bin/env git clone --mirror git@github.com:domioedition/rest.git /home/deploy/apps/rest/repo )
+ DEBUG [9b34cb3e] 	Cloning into bare repository '/home/deploy/apps/rest/repo'...
+  INFO [9b34cb3e] Finished in 3.476 seconds with exit status 0 (successful).
+ DEBUG [c1efb4d3] Running if test ! -d /home/deploy/apps/rest/repo; then echo "Directory does not exist '/home/deploy/apps/rest/repo'" 1>&2; false; fi as deploy@172.104.252.11
+ DEBUG [c1efb4d3] Command: if test ! -d /home/deploy/apps/rest/repo; then echo "Directory does not exist '/home/deploy/apps/rest/repo'" 1>&2; false; fi
+ DEBUG [c1efb4d3] Finished in 0.140 seconds with exit status 0 (successful).
+  INFO [ad2475f4] Running /usr/bin/env git remote set-url origin git@github.com:domioedition/rest.git as deploy@172.104.252.11
+ DEBUG [ad2475f4] Command: cd /home/deploy/apps/rest/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rest-production-marsius.sh" ; /usr/bin/env git remote set-url origin git@github.com:domioedition/rest.git )
+  INFO [ad2475f4] Finished in 0.102 seconds with exit status 0 (successful).
+  INFO [20889000] Running /usr/bin/env git remote update --prune as deploy@172.104.252.11
+ DEBUG [20889000] Command: cd /home/deploy/apps/rest/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rest-production-marsius.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [20889000] 	Fetching origin
+  INFO [20889000] Finished in 4.125 seconds with exit status 0 (successful).
+ DEBUG [e4b7d278] Running if test ! -d /home/deploy/apps/rest/repo; then echo "Directory does not exist '/home/deploy/apps/rest/repo'" 1>&2; false; fi as deploy@172.104.252.11
+ DEBUG [e4b7d278] Command: if test ! -d /home/deploy/apps/rest/repo; then echo "Directory does not exist '/home/deploy/apps/rest/repo'" 1>&2; false; fi
+ DEBUG [e4b7d278] Finished in 0.144 seconds with exit status 0 (successful).
+  INFO [64e3a114] Running /usr/bin/env mkdir -p /home/deploy/apps/rest/releases/20171203204311 as deploy@172.104.252.11
+ DEBUG [64e3a114] Command: cd /home/deploy/apps/rest/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rest-production-marsius.sh" ; /usr/bin/env mkdir -p /home/deploy/apps/rest/releases/20171203204311 )
+  INFO [64e3a114] Finished in 0.100 seconds with exit status 0 (successful).
+  INFO [1c934731] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/deploy/apps/rest/releases/20171203204311 as deploy@172.104.252.11
+ DEBUG [1c934731] Command: cd /home/deploy/apps/rest/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rest-production-marsius.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/deploy/apps/rest/releases/20171203204311 )
+  INFO [1c934731] Finished in 0.129 seconds with exit status 0 (successful).
+ DEBUG [246ab16a] Running if test ! -d /home/deploy/apps/rest/repo; then echo "Directory does not exist '/home/deploy/apps/rest/repo'" 1>&2; false; fi as deploy@172.104.252.11
+ DEBUG [246ab16a] Command: if test ! -d /home/deploy/apps/rest/repo; then echo "Directory does not exist '/home/deploy/apps/rest/repo'" 1>&2; false; fi
+ DEBUG [246ab16a] Finished in 0.094 seconds with exit status 0 (successful).
+ DEBUG [de55d827] Running /usr/bin/env git rev-list --max-count=1 master as deploy@172.104.252.11
+ DEBUG [de55d827] Command: cd /home/deploy/apps/rest/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rest-production-marsius.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [de55d827] 	da66a18b2cab0b5917cca080e76b52cb4626aa07
+ DEBUG [de55d827] Finished in 0.097 seconds with exit status 0 (successful).
+ DEBUG [5079ad68] Running if test ! -d /home/deploy/apps/rest/releases/20171203204311; then echo "Directory does not exist '/home/deploy/apps/rest/releases/20171203204311'" 1>&2; false; fi as deploy@172.104.252.11
+ DEBUG [5079ad68] Command: if test ! -d /home/deploy/apps/rest/releases/20171203204311; then echo "Directory does not exist '/home/deploy/apps/rest/releases/20171203204311'" 1>&2; false; fi
+ DEBUG [5079ad68] Finished in 0.100 seconds with exit status 0 (successful).
+  INFO [127c1f38] Running /usr/bin/env echo "da66a18b2cab0b5917cca080e76b52cb4626aa07" >> REVISION as deploy@172.104.252.11
+ DEBUG [127c1f38] Command: cd /home/deploy/apps/rest/releases/20171203204311 && /usr/bin/env echo "da66a18b2cab0b5917cca080e76b52cb4626aa07" >> REVISION
+  INFO [127c1f38] Finished in 0.106 seconds with exit status 0 (successful).
+ DEBUG [96912f84] Running if test ! -d /home/deploy/apps/rest/releases/20171203204311; then echo "Directory does not exist '/home/deploy/apps/rest/releases/20171203204311'" 1>&2; false; fi as deploy@172.104.252.11
+ DEBUG [96912f84] Command: if test ! -d /home/deploy/apps/rest/releases/20171203204311; then echo "Directory does not exist '/home/deploy/apps/rest/releases/20171203204311'" 1>&2; false; fi
+ DEBUG [96912f84] Finished in 0.093 seconds with exit status 0 (successful).
+  INFO [c80714d7] Running /usr/bin/env composer install --no-dev --quiet as deploy@172.104.252.11
+ DEBUG [c80714d7] Command: cd /home/deploy/apps/rest/releases/20171203204311 && /usr/bin/env composer install --no-dev --quiet
+  INFO [c80714d7] Finished in 3.787 seconds with exit status 0 (successful).
+  INFO [960f9341] Running /usr/bin/env ln -s /home/deploy/apps/rest/releases/20171203204311 /home/deploy/apps/rest/releases/current as deploy@172.104.252.11
+ DEBUG [960f9341] Command: /usr/bin/env ln -s /home/deploy/apps/rest/releases/20171203204311 /home/deploy/apps/rest/releases/current
+  INFO [960f9341] Finished in 0.095 seconds with exit status 0 (successful).
+  INFO [40532780] Running /usr/bin/env mv /home/deploy/apps/rest/releases/current /home/deploy/apps/rest as deploy@172.104.252.11
+ DEBUG [40532780] Command: /usr/bin/env mv /home/deploy/apps/rest/releases/current /home/deploy/apps/rest
+  INFO [40532780] Finished in 0.102 seconds with exit status 0 (successful).
+ DEBUG [f4f5b678] Running /usr/bin/env ls -x /home/deploy/apps/rest/releases as deploy@172.104.252.11
+ DEBUG [f4f5b678] Command: /usr/bin/env ls -x /home/deploy/apps/rest/releases
+ DEBUG [f4f5b678] 	20171203204311
+ DEBUG [f4f5b678] Finished in 0.097 seconds with exit status 0 (successful).
+ DEBUG [088e4763] Running if test ! -d /home/deploy/apps/rest/releases; then echo "Directory does not exist '/home/deploy/apps/rest/releases'" 1>&2; false; fi as deploy@172.104.252.11
+ DEBUG [088e4763] Command: if test ! -d /home/deploy/apps/rest/releases; then echo "Directory does not exist '/home/deploy/apps/rest/releases'" 1>&2; false; fi
+ DEBUG [088e4763] Finished in 0.095 seconds with exit status 0 (successful).
+  INFO [f0b355c5] Running /usr/bin/env echo "Branch master (at da66a18b2cab0b5917cca080e76b52cb4626aa07) deployed as release 20171203204311 by marsius" >> /home/deploy/apps/rest/revisions.log as deploy@172.104.252.11
+ DEBUG [f0b355c5] Command: cd /home/deploy/apps/rest/releases && /usr/bin/env echo "Branch master (at da66a18b2cab0b5917cca080e76b52cb4626aa07) deployed as release 20171203204311 by marsius" >> /home/deploy/apps/rest/revisions.log
+  INFO [f0b355c5] Finished in 0.102 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-12-04 01:08:57 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [7948be66] Running /usr/bin/env mkdir -p /tmp as deploy@172.104.252.11
+ DEBUG [7948be66] Command: /usr/bin/env mkdir -p /tmp
+  INFO [7948be66] Finished in 6.920 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-rest-production-marsius.sh 0.0%
+  INFO Uploading /tmp/git-ssh-rest-production-marsius.sh 100.0%
+  INFO [d662e508] Running /usr/bin/env chmod 700 /tmp/git-ssh-rest-production-marsius.sh as deploy@172.104.252.11
+ DEBUG [d662e508] Command: /usr/bin/env chmod 700 /tmp/git-ssh-rest-production-marsius.sh
+  INFO [d662e508] Finished in 0.098 seconds with exit status 0 (successful).
+  INFO [f4e9afe1] Running /usr/bin/env git ls-remote git@github.com:domioedition/rest.git HEAD as deploy@172.104.252.11
+ DEBUG [f4e9afe1] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rest-production-marsius.sh" ; /usr/bin/env git ls-remote git@github.com:domioedition/rest.git HEAD )
+ DEBUG [f4e9afe1] 	bfed5c77fc5a88262828b2344d5f61b002100359	HEAD
+  INFO [f4e9afe1] Finished in 12.005 seconds with exit status 0 (successful).
+  INFO [6501e21c] Running /usr/bin/env mkdir -p /home/deploy/apps/rest/shared /home/deploy/apps/rest/releases as deploy@172.104.252.11
+ DEBUG [6501e21c] Command: /usr/bin/env mkdir -p /home/deploy/apps/rest/shared /home/deploy/apps/rest/releases
+  INFO [6501e21c] Finished in 0.143 seconds with exit status 0 (successful).
+ DEBUG [e48d59ec] Running [ -f /home/deploy/apps/rest/current/REVISION ] as deploy@172.104.252.11
+ DEBUG [e48d59ec] Command: [ -f /home/deploy/apps/rest/current/REVISION ]
+ DEBUG [e48d59ec] Finished in 0.102 seconds with exit status 0 (successful).
+ DEBUG [e954f920] Running /usr/bin/env cat /home/deploy/apps/rest/current/REVISION 2>/dev/null as deploy@172.104.252.11
+ DEBUG [e954f920] Command: /usr/bin/env cat /home/deploy/apps/rest/current/REVISION 2>/dev/null
+ DEBUG [e954f920] 	da66a18b2cab0b5917cca080e76b52cb4626aa07
+ DEBUG [e954f920] Finished in 0.103 seconds with exit status 0 (successful).
+ DEBUG [35927649] Running [ -f /home/deploy/apps/rest/repo/HEAD ] as deploy@172.104.252.11
+ DEBUG [35927649] Command: [ -f /home/deploy/apps/rest/repo/HEAD ]
+ DEBUG [35927649] Finished in 0.096 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /home/deploy/apps/rest/repo
+ DEBUG [b41bb946] Running if test ! -d /home/deploy/apps/rest/repo; then echo "Directory does not exist '/home/deploy/apps/rest/repo'" 1>&2; false; fi as deploy@172.104.252.11
+ DEBUG [b41bb946] Command: if test ! -d /home/deploy/apps/rest/repo; then echo "Directory does not exist '/home/deploy/apps/rest/repo'" 1>&2; false; fi
+ DEBUG [b41bb946] Finished in 0.095 seconds with exit status 0 (successful).
+  INFO [1e6d72d4] Running /usr/bin/env git remote set-url origin git@github.com:domioedition/rest.git as deploy@172.104.252.11
+ DEBUG [1e6d72d4] Command: cd /home/deploy/apps/rest/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rest-production-marsius.sh" ; /usr/bin/env git remote set-url origin git@github.com:domioedition/rest.git )
+  INFO [1e6d72d4] Finished in 0.111 seconds with exit status 0 (successful).
+  INFO [e1642ac5] Running /usr/bin/env git remote update --prune as deploy@172.104.252.11
+ DEBUG [e1642ac5] Command: cd /home/deploy/apps/rest/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rest-production-marsius.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [e1642ac5] 	Fetching origin
+ DEBUG [e1642ac5] 	From github.com:domioedition/rest
+   da66a18..bfed5c7  master     -> master
+  INFO [e1642ac5] Finished in 10.024 seconds with exit status 0 (successful).
+ DEBUG [6d725d16] Running if test ! -d /home/deploy/apps/rest/repo; then echo "Directory does not exist '/home/deploy/apps/rest/repo'" 1>&2; false; fi as deploy@172.104.252.11
+ DEBUG [6d725d16] Command: if test ! -d /home/deploy/apps/rest/repo; then echo "Directory does not exist '/home/deploy/apps/rest/repo'" 1>&2; false; fi
+ DEBUG [6d725d16] Finished in 0.153 seconds with exit status 0 (successful).
+  INFO [4febc4a0] Running /usr/bin/env mkdir -p /home/deploy/apps/rest/releases/20171203230916 as deploy@172.104.252.11
+ DEBUG [4febc4a0] Command: cd /home/deploy/apps/rest/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rest-production-marsius.sh" ; /usr/bin/env mkdir -p /home/deploy/apps/rest/releases/20171203230916 )
+  INFO [4febc4a0] Finished in 0.096 seconds with exit status 0 (successful).
+  INFO [695af42b] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/deploy/apps/rest/releases/20171203230916 as deploy@172.104.252.11
+ DEBUG [695af42b] Command: cd /home/deploy/apps/rest/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rest-production-marsius.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/deploy/apps/rest/releases/20171203230916 )
+  INFO [695af42b] Finished in 0.151 seconds with exit status 0 (successful).
+ DEBUG [22da7d9a] Running if test ! -d /home/deploy/apps/rest/repo; then echo "Directory does not exist '/home/deploy/apps/rest/repo'" 1>&2; false; fi as deploy@172.104.252.11
+ DEBUG [22da7d9a] Command: if test ! -d /home/deploy/apps/rest/repo; then echo "Directory does not exist '/home/deploy/apps/rest/repo'" 1>&2; false; fi
+ DEBUG [22da7d9a] Finished in 0.106 seconds with exit status 0 (successful).
+ DEBUG [31dedbd3] Running /usr/bin/env git rev-list --max-count=1 master as deploy@172.104.252.11
+ DEBUG [31dedbd3] Command: cd /home/deploy/apps/rest/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rest-production-marsius.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [31dedbd3] 	bfed5c77fc5a88262828b2344d5f61b002100359
+ DEBUG [31dedbd3] Finished in 0.102 seconds with exit status 0 (successful).
+ DEBUG [d15f127e] Running if test ! -d /home/deploy/apps/rest/releases/20171203230916; then echo "Directory does not exist '/home/deploy/apps/rest/releases/20171203230916'" 1>&2; false; fi as deploy@172.104.252.11
+ DEBUG [d15f127e] Command: if test ! -d /home/deploy/apps/rest/releases/20171203230916; then echo "Directory does not exist '/home/deploy/apps/rest/releases/20171203230916'" 1>&2; false; fi
+ DEBUG [d15f127e] Finished in 0.093 seconds with exit status 0 (successful).
+  INFO [eb5acc60] Running /usr/bin/env echo "bfed5c77fc5a88262828b2344d5f61b002100359" >> REVISION as deploy@172.104.252.11
+ DEBUG [eb5acc60] Command: cd /home/deploy/apps/rest/releases/20171203230916 && /usr/bin/env echo "bfed5c77fc5a88262828b2344d5f61b002100359" >> REVISION
+  INFO [eb5acc60] Finished in 0.099 seconds with exit status 0 (successful).
+ DEBUG [677cb670] Running if test ! -d /home/deploy/apps/rest/releases/20171203230916; then echo "Directory does not exist '/home/deploy/apps/rest/releases/20171203230916'" 1>&2; false; fi as deploy@172.104.252.11
+ DEBUG [677cb670] Command: if test ! -d /home/deploy/apps/rest/releases/20171203230916; then echo "Directory does not exist '/home/deploy/apps/rest/releases/20171203230916'" 1>&2; false; fi
+ DEBUG [677cb670] Finished in 0.093 seconds with exit status 0 (successful).
+  INFO [d1c38db4] Running /usr/bin/env composer install --no-dev --quiet as deploy@172.104.252.11
+ DEBUG [d1c38db4] Command: cd /home/deploy/apps/rest/releases/20171203230916 && /usr/bin/env composer install --no-dev --quiet
+  INFO [d1c38db4] Finished in 2.854 seconds with exit status 0 (successful).
+  INFO [2ed9c95c] Running /usr/bin/env ln -s /home/deploy/apps/rest/releases/20171203230916 /home/deploy/apps/rest/releases/current as deploy@172.104.252.11
+ DEBUG [2ed9c95c] Command: /usr/bin/env ln -s /home/deploy/apps/rest/releases/20171203230916 /home/deploy/apps/rest/releases/current
+  INFO [2ed9c95c] Finished in 0.094 seconds with exit status 0 (successful).
+  INFO [359ed5c4] Running /usr/bin/env mv /home/deploy/apps/rest/releases/current /home/deploy/apps/rest as deploy@172.104.252.11
+ DEBUG [359ed5c4] Command: /usr/bin/env mv /home/deploy/apps/rest/releases/current /home/deploy/apps/rest
+  INFO [359ed5c4] Finished in 0.104 seconds with exit status 0 (successful).
+ DEBUG [f2cec9e0] Running /usr/bin/env ls -x /home/deploy/apps/rest/releases as deploy@172.104.252.11
+ DEBUG [f2cec9e0] Command: /usr/bin/env ls -x /home/deploy/apps/rest/releases
+ DEBUG [f2cec9e0] 	20171203204311	20171203230916
+ DEBUG [f2cec9e0] Finished in 0.095 seconds with exit status 0 (successful).
+ DEBUG [6ae88d91] Running if test ! -d /home/deploy/apps/rest/releases; then echo "Directory does not exist '/home/deploy/apps/rest/releases'" 1>&2; false; fi as deploy@172.104.252.11
+ DEBUG [6ae88d91] Command: if test ! -d /home/deploy/apps/rest/releases; then echo "Directory does not exist '/home/deploy/apps/rest/releases'" 1>&2; false; fi
+ DEBUG [6ae88d91] Finished in 0.097 seconds with exit status 0 (successful).
+  INFO [42561d8c] Running /usr/bin/env echo "Branch master (at bfed5c77fc5a88262828b2344d5f61b002100359) deployed as release 20171203230916 by marsius" >> /home/deploy/apps/rest/revisions.log as deploy@172.104.252.11
+ DEBUG [42561d8c] Command: cd /home/deploy/apps/rest/releases && /usr/bin/env echo "Branch master (at bfed5c77fc5a88262828b2344d5f61b002100359) deployed as release 20171203230916 by marsius" >> /home/deploy/apps/rest/revisions.log
+  INFO [42561d8c] Finished in 0.099 seconds with exit status 0 (successful).
